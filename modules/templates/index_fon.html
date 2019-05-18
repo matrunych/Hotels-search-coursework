@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="colorlib.com">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+    <link href="static/css/main.css" rel="stylesheet" />
+    <style>
+       body {
+         background-image: url("static/images/Search_001.png");
+       }
+      </style>
+  </head>
+  <body>
+    <div class="s01">
+      <form action="/search" method="post">
+        <fieldset>
+          <legend>
+            <p id="p1"><b>Discover the Amazing World</b></p>
+            <p id="p2">Find cheapest hotels with best restaurants nearby</p>
+          </legend>
+        </fieldset>
+        <div class="inner-form">
+          <div class="input-field first-wrap">
+            <input id="city" type="text" name="city" placeholder="What city are you going to visit?" required/>
+          </div>
+          <div class="input-field second-wrap">
+            <input id="price" type="number" name="price" placeholder="Price per night($)" />
+          </div>
+          <div class="input-field third-wrap">
+            <input type="submit" value="Done"/>
+            <!--<button class="btn-search" type="button">Search</button>-->
+          </div>
+        </div>
+      </form>
+    </div>
+  </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>

@@ -1,0 +1,4115 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_d438804e22ab4313aa6bc719fb31e8a5 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_d438804e22ab4313aa6bc719fb31e8a5" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_d438804e22ab4313aa6bc719fb31e8a5 = L.map(
+        'map_d438804e22ab4313aa6bc719fb31e8a5', {
+        center: [45.4667971, 9.1904984],
+        zoom: 12,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_b7b3915993aa4bea9866251bfa022903 = L.tileLayer(
+        'https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_d438804e22ab4313aa6bc719fb31e8a5);
+    
+            var feature_group_5f488259b9c24f7b9d67879b331121b8 = L.featureGroup(
+                ).addTo(map_d438804e22ab4313aa6bc719fb31e8a5);
+        
+    
+        var marker_c1ab47d621af4373a2cfe1f946324f76 = L.marker(
+            [45.4747411603, 9.1833318025],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_33ffa278fba14ef28653fab7d6802c75 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c1ab47d621af4373a2cfe1f946324f76.setIcon(icon_33ffa278fba14ef28653fab7d6802c75);
+            
+    
+            var popup_1e4f8a645c604adf8e3561c247e03881 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e605a2a1b12c4b4aae6dd868a5aa47ab = $(`<div id="html_e605a2a1b12c4b4aae6dd868a5aa47ab" style="width: 100.0%; height: 100.0%;">Temakinho Average price for two:70.0</div>`)[0];
+                popup_1e4f8a645c604adf8e3561c247e03881.setContent(html_e605a2a1b12c4b4aae6dd868a5aa47ab);
+            
+
+            marker_c1ab47d621af4373a2cfe1f946324f76.bindPopup(popup_1e4f8a645c604adf8e3561c247e03881)
+            ;
+
+            
+        
+    
+        var marker_6b01557b2bea4c50974714f1c8d0d775 = L.marker(
+            [45.482191, 9.179827],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_c6535914a43b4d4594c557bcd1d77e3c = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6b01557b2bea4c50974714f1c8d0d775.setIcon(icon_c6535914a43b4d4594c557bcd1d77e3c);
+            
+    
+            var popup_7962457333da41399ddbacdfa166cc85 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_aaaa494c9a624fbd8fc58a0b4b298d86 = $(`<div id="html_aaaa494c9a624fbd8fc58a0b4b298d86" style="width: 100.0%; height: 100.0%;">Otto Average price for two:20.0</div>`)[0];
+                popup_7962457333da41399ddbacdfa166cc85.setContent(html_aaaa494c9a624fbd8fc58a0b4b298d86);
+            
+
+            marker_6b01557b2bea4c50974714f1c8d0d775.bindPopup(popup_7962457333da41399ddbacdfa166cc85)
+            ;
+
+            
+        
+    
+        var marker_e2b87f0d771a44b6ae48632fbc9ed578 = L.marker(
+            [45.4748728181, 9.1938748956],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_abc65ce55cc64807aaea77f3a22a5dd4 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e2b87f0d771a44b6ae48632fbc9ed578.setIcon(icon_abc65ce55cc64807aaea77f3a22a5dd4);
+            
+    
+            var popup_b4a67b66f88643d7b04452b8d44f9fa8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f35c494a63414743819e82806799af9d = $(`<div id="html_f35c494a63414743819e82806799af9d" style="width: 100.0%; height: 100.0%;">22 Milano Average price for two:50.0</div>`)[0];
+                popup_b4a67b66f88643d7b04452b8d44f9fa8.setContent(html_f35c494a63414743819e82806799af9d);
+            
+
+            marker_e2b87f0d771a44b6ae48632fbc9ed578.bindPopup(popup_b4a67b66f88643d7b04452b8d44f9fa8)
+            ;
+
+            
+        
+    
+        var marker_49eeadb7c9a34447943c5b9cf62cdfca = L.marker(
+            [45.4736686077, 9.1840080544],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_222650ae92e2488792aa5b94989094df = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_49eeadb7c9a34447943c5b9cf62cdfca.setIcon(icon_222650ae92e2488792aa5b94989094df);
+            
+    
+            var popup_afdcbddbc1fb4a33bdd16d1d705f4d2d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_337a0a73a5044f20a997d9f2ac0a02c7 = $(`<div id="html_337a0a73a5044f20a997d9f2ac0a02c7" style="width: 100.0%; height: 100.0%;">Tram\u00e9 Average price for two:30.0</div>`)[0];
+                popup_afdcbddbc1fb4a33bdd16d1d705f4d2d.setContent(html_337a0a73a5044f20a997d9f2ac0a02c7);
+            
+
+            marker_49eeadb7c9a34447943c5b9cf62cdfca.bindPopup(popup_afdcbddbc1fb4a33bdd16d1d705f4d2d)
+            ;
+
+            
+        
+    
+        var marker_d2c782be46224b9f9b94d498995651a1 = L.marker(
+            [45.47759, 9.18857],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_ae89cad5e5444fb4940f8e0e7ac28c93 = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d2c782be46224b9f9b94d498995651a1.setIcon(icon_ae89cad5e5444fb4940f8e0e7ac28c93);
+            
+    
+            var popup_195113ffb00f4de0973a85289d928bcd = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_983cf089ef374c6abbf2fb4fab768034 = $(`<div id="html_983cf089ef374c6abbf2fb4fab768034" style="width: 100.0%; height: 100.0%;">Style Homes San Marco 29 Price per night for two: 144 Amount of restaurants nearby: 4</div>`)[0];
+                popup_195113ffb00f4de0973a85289d928bcd.setContent(html_983cf089ef374c6abbf2fb4fab768034);
+            
+
+            marker_d2c782be46224b9f9b94d498995651a1.bindPopup(popup_195113ffb00f4de0973a85289d928bcd)
+            ;
+
+            
+        
+    
+        var marker_05b5b3df50ef47ce9b8307642b515baa = L.marker(
+            [45.4647935218, 9.1965450346],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_3e13df2455624efd87f4bf61b1e29480 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_05b5b3df50ef47ce9b8307642b515baa.setIcon(icon_3e13df2455624efd87f4bf61b1e29480);
+            
+    
+            var popup_251e200d0247481bb1f911ffc0eb8232 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_468e078a6f544757964775db02c3a554 = $(`<div id="html_468e078a6f544757964775db02c3a554" style="width: 100.0%; height: 100.0%;">Pizzeria Gino Sorbillo - Lievito Madre al Duomo Average price for two:40.0</div>`)[0];
+                popup_251e200d0247481bb1f911ffc0eb8232.setContent(html_468e078a6f544757964775db02c3a554);
+            
+
+            marker_05b5b3df50ef47ce9b8307642b515baa.bindPopup(popup_251e200d0247481bb1f911ffc0eb8232)
+            ;
+
+            
+        
+    
+        var marker_6fdfe6d00a7c404388e50d1fc85479db = L.marker(
+            [45.4657075231, 9.1914293915],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_86aac145258f4ff9a27b821bf06dc677 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6fdfe6d00a7c404388e50d1fc85479db.setIcon(icon_86aac145258f4ff9a27b821bf06dc677);
+            
+    
+            var popup_c7e4501ef60f4b5ca187a5cc6958ea58 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_377e35f599314b77b22bd2ffc717f67c = $(`<div id="html_377e35f599314b77b22bd2ffc717f67c" style="width: 100.0%; height: 100.0%;">Luini Average price for two:10.0</div>`)[0];
+                popup_c7e4501ef60f4b5ca187a5cc6958ea58.setContent(html_377e35f599314b77b22bd2ffc717f67c);
+            
+
+            marker_6fdfe6d00a7c404388e50d1fc85479db.bindPopup(popup_c7e4501ef60f4b5ca187a5cc6958ea58)
+            ;
+
+            
+        
+    
+        var marker_cbb02647fd1246dc8389a7803c138ec6 = L.marker(
+            [45.455912, 9.196162],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_23acc086a1174a818e372e36b792773c = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cbb02647fd1246dc8389a7803c138ec6.setIcon(icon_23acc086a1174a818e372e36b792773c);
+            
+    
+            var popup_0e33b46caa224ed48e756131ad836b8f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4b527c11a0fd4ab49efc5cbae476bd8b = $(`<div id="html_4b527c11a0fd4ab49efc5cbae476bd8b" style="width: 100.0%; height: 100.0%;">Pizza Am Average price for two:30.0</div>`)[0];
+                popup_0e33b46caa224ed48e756131ad836b8f.setContent(html_4b527c11a0fd4ab49efc5cbae476bd8b);
+            
+
+            marker_cbb02647fd1246dc8389a7803c138ec6.bindPopup(popup_0e33b46caa224ed48e756131ad836b8f)
+            ;
+
+            
+        
+    
+        var marker_e0d4307f7e9a4bf68bd3c953216a4431 = L.marker(
+            [45.4657317427, 9.1911967099],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_701d71ceec6f41a2b41196cef12e1f06 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e0d4307f7e9a4bf68bd3c953216a4431.setIcon(icon_701d71ceec6f41a2b41196cef12e1f06);
+            
+    
+            var popup_9e8e6ffb932d4e62bd2b82907ce9e6ea = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_23868357fbe84968867c9f4d5243dd6f = $(`<div id="html_23868357fbe84968867c9f4d5243dd6f" style="width: 100.0%; height: 100.0%;">Cioccolati Italiani Average price for two:6.0</div>`)[0];
+                popup_9e8e6ffb932d4e62bd2b82907ce9e6ea.setContent(html_23868357fbe84968867c9f4d5243dd6f);
+            
+
+            marker_e0d4307f7e9a4bf68bd3c953216a4431.bindPopup(popup_9e8e6ffb932d4e62bd2b82907ce9e6ea)
+            ;
+
+            
+        
+    
+        var marker_781f800d22dd4527a2dfe35cd4fc761d = L.marker(
+            [45.4570715353, 9.181609489],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_49a2f9db6bfd4fb1a1eb651641e1ea22 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_781f800d22dd4527a2dfe35cd4fc761d.setIcon(icon_49a2f9db6bfd4fb1a1eb651641e1ea22);
+            
+    
+            var popup_065d70e0f06b4cb79820712ae95eecff = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_71a035bd4aea421498bd8e6c7cccf95f = $(`<div id="html_71a035bd4aea421498bd8e6c7cccf95f" style="width: 100.0%; height: 100.0%;">La Dogana del Buongusto Average price for two:70.0</div>`)[0];
+                popup_065d70e0f06b4cb79820712ae95eecff.setContent(html_71a035bd4aea421498bd8e6c7cccf95f);
+            
+
+            marker_781f800d22dd4527a2dfe35cd4fc761d.bindPopup(popup_065d70e0f06b4cb79820712ae95eecff)
+            ;
+
+            
+        
+    
+        var marker_60ac56eccb0344c9b169dbd185c8179f = L.marker(
+            [45.4655567974, 9.1910116374],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_0709136919574227b03860e1a340b866 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_60ac56eccb0344c9b169dbd185c8179f.setIcon(icon_0709136919574227b03860e1a340b866);
+            
+    
+            var popup_81d1e4a5b0544f2db5c0fb2d7e04f950 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_340ee90ed4b344d08849a0c5429d31aa = $(`<div id="html_340ee90ed4b344d08849a0c5429d31aa" style="width: 100.0%; height: 100.0%;">Spontini Average price for two:15.0</div>`)[0];
+                popup_81d1e4a5b0544f2db5c0fb2d7e04f950.setContent(html_340ee90ed4b344d08849a0c5429d31aa);
+            
+
+            marker_60ac56eccb0344c9b169dbd185c8179f.bindPopup(popup_81d1e4a5b0544f2db5c0fb2d7e04f950)
+            ;
+
+            
+        
+    
+        var marker_d88a721fde994f1289c4bb2cdeb12c4e = L.marker(
+            [45.46095, 9.18935],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_f2aa1181f0ed4d44bbb309711b5c4944 = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d88a721fde994f1289c4bb2cdeb12c4e.setIcon(icon_f2aa1181f0ed4d44bbb309711b5c4944);
+            
+    
+            var popup_0288cd22a2c34406a890e0ef05c4d1b4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9fa5e786f8a942d286b54b1f6e9dd5c3 = $(`<div id="html_9fa5e786f8a942d286b54b1f6e9dd5c3" style="width: 100.0%; height: 100.0%;">The Square Milano Duomo Price per night for two: 364 Amount of restaurants nearby: 6</div>`)[0];
+                popup_0288cd22a2c34406a890e0ef05c4d1b4.setContent(html_9fa5e786f8a942d286b54b1f6e9dd5c3);
+            
+
+            marker_d88a721fde994f1289c4bb2cdeb12c4e.bindPopup(popup_0288cd22a2c34406a890e0ef05c4d1b4)
+            ;
+
+            
+        
+    
+        var marker_fc559beee38541b99b5ff49a9290e27d = L.marker(
+            [45.4647935218, 9.1965450346],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_ecc66772b3644838a60a6e2f5565f847 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fc559beee38541b99b5ff49a9290e27d.setIcon(icon_ecc66772b3644838a60a6e2f5565f847);
+            
+    
+            var popup_dca002db452742a99fa42f20d5ecca04 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2400ddb11d8d4e2e95789f1dde9f19a6 = $(`<div id="html_2400ddb11d8d4e2e95789f1dde9f19a6" style="width: 100.0%; height: 100.0%;">Pizzeria Gino Sorbillo - Lievito Madre al Duomo Average price for two:40.0</div>`)[0];
+                popup_dca002db452742a99fa42f20d5ecca04.setContent(html_2400ddb11d8d4e2e95789f1dde9f19a6);
+            
+
+            marker_fc559beee38541b99b5ff49a9290e27d.bindPopup(popup_dca002db452742a99fa42f20d5ecca04)
+            ;
+
+            
+        
+    
+        var marker_b943412a211643978dba331873211180 = L.marker(
+            [45.4657075231, 9.1914293915],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_25b48f1252ae4513b2a0acc1d6fd8dc7 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b943412a211643978dba331873211180.setIcon(icon_25b48f1252ae4513b2a0acc1d6fd8dc7);
+            
+    
+            var popup_1ccff8dd44d44f9ba7b48737cdb87374 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b2804c3326034bbba5fceba4531b47d4 = $(`<div id="html_b2804c3326034bbba5fceba4531b47d4" style="width: 100.0%; height: 100.0%;">Luini Average price for two:10.0</div>`)[0];
+                popup_1ccff8dd44d44f9ba7b48737cdb87374.setContent(html_b2804c3326034bbba5fceba4531b47d4);
+            
+
+            marker_b943412a211643978dba331873211180.bindPopup(popup_1ccff8dd44d44f9ba7b48737cdb87374)
+            ;
+
+            
+        
+    
+        var marker_fb5e0087637c4fcfb185ca8ae7c4c1f3 = L.marker(
+            [45.4657317427, 9.1911967099],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_8fe0bfabbc96498b8d56d01cca411700 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fb5e0087637c4fcfb185ca8ae7c4c1f3.setIcon(icon_8fe0bfabbc96498b8d56d01cca411700);
+            
+    
+            var popup_2a4074693cc74bdd8b589af28d7608dc = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c9b12106cece428c868030fa93a9d26c = $(`<div id="html_c9b12106cece428c868030fa93a9d26c" style="width: 100.0%; height: 100.0%;">Cioccolati Italiani Average price for two:6.0</div>`)[0];
+                popup_2a4074693cc74bdd8b589af28d7608dc.setContent(html_c9b12106cece428c868030fa93a9d26c);
+            
+
+            marker_fb5e0087637c4fcfb185ca8ae7c4c1f3.bindPopup(popup_2a4074693cc74bdd8b589af28d7608dc)
+            ;
+
+            
+        
+    
+        var marker_03a1b32f8d4e40438f00c65dcc3d36c4 = L.marker(
+            [45.4655567974, 9.1910116374],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_b976f2f632f54d1caf8c9c62f7439989 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_03a1b32f8d4e40438f00c65dcc3d36c4.setIcon(icon_b976f2f632f54d1caf8c9c62f7439989);
+            
+    
+            var popup_c88d77a47afa462a90bd73c4b3cb6cd3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_dd033bea53fc48bd907f3a7495c7ea1c = $(`<div id="html_dd033bea53fc48bd907f3a7495c7ea1c" style="width: 100.0%; height: 100.0%;">Spontini Average price for two:15.0</div>`)[0];
+                popup_c88d77a47afa462a90bd73c4b3cb6cd3.setContent(html_dd033bea53fc48bd907f3a7495c7ea1c);
+            
+
+            marker_03a1b32f8d4e40438f00c65dcc3d36c4.bindPopup(popup_c88d77a47afa462a90bd73c4b3cb6cd3)
+            ;
+
+            
+        
+    
+        var marker_33690059007c460c8b346c67a2697d73 = L.marker(
+            [45.46496, 9.19134],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_7f02ca60488d4c3f84ca7e60b5418a53 = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_33690059007c460c8b346c67a2697d73.setIcon(icon_7f02ca60488d4c3f84ca7e60b5418a53);
+            
+    
+            var popup_af130cd2cbe04dca888dd028f5e9337e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4da927baed594b889fbccda16f3a59b9 = $(`<div id="html_4da927baed594b889fbccda16f3a59b9" style="width: 100.0%; height: 100.0%;">Straf A Member Of Design Hotels Price per night for two: 371 Amount of restaurants nearby: 4</div>`)[0];
+                popup_af130cd2cbe04dca888dd028f5e9337e.setContent(html_4da927baed594b889fbccda16f3a59b9);
+            
+
+            marker_33690059007c460c8b346c67a2697d73.bindPopup(popup_af130cd2cbe04dca888dd028f5e9337e)
+            ;
+
+            
+        
+    
+        var marker_12626443538a43b886a12ebfcc1c381b = L.marker(
+            [45.4647935218, 9.1965450346],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_69b605735a44485999d5770ba8757bba = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_12626443538a43b886a12ebfcc1c381b.setIcon(icon_69b605735a44485999d5770ba8757bba);
+            
+    
+            var popup_4dbcc663bb224a0bb3e8c122c90e1cca = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7007789e6ce5437586c97515ca461f18 = $(`<div id="html_7007789e6ce5437586c97515ca461f18" style="width: 100.0%; height: 100.0%;">Pizzeria Gino Sorbillo - Lievito Madre al Duomo Average price for two:40.0</div>`)[0];
+                popup_4dbcc663bb224a0bb3e8c122c90e1cca.setContent(html_7007789e6ce5437586c97515ca461f18);
+            
+
+            marker_12626443538a43b886a12ebfcc1c381b.bindPopup(popup_4dbcc663bb224a0bb3e8c122c90e1cca)
+            ;
+
+            
+        
+    
+        var marker_6ae2ef04b624467baf80391fad0fcf46 = L.marker(
+            [45.4657075231, 9.1914293915],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_47392498e0734f3aa7024cd503929421 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6ae2ef04b624467baf80391fad0fcf46.setIcon(icon_47392498e0734f3aa7024cd503929421);
+            
+    
+            var popup_ab4d54997ab245159c7a0d8034f813f6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_79560236fcb742889aa16a82e9e04c93 = $(`<div id="html_79560236fcb742889aa16a82e9e04c93" style="width: 100.0%; height: 100.0%;">Luini Average price for two:10.0</div>`)[0];
+                popup_ab4d54997ab245159c7a0d8034f813f6.setContent(html_79560236fcb742889aa16a82e9e04c93);
+            
+
+            marker_6ae2ef04b624467baf80391fad0fcf46.bindPopup(popup_ab4d54997ab245159c7a0d8034f813f6)
+            ;
+
+            
+        
+    
+        var marker_e7cb8883f221425eae2a43aa7caeb5d6 = L.marker(
+            [45.4657317427, 9.1911967099],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_2a124419d29f426db6a961f9145ace7c = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e7cb8883f221425eae2a43aa7caeb5d6.setIcon(icon_2a124419d29f426db6a961f9145ace7c);
+            
+    
+            var popup_4c7eaee167104ec897a514abcb0b4fb3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c79bba649d1e457ba27d1b803fcb5168 = $(`<div id="html_c79bba649d1e457ba27d1b803fcb5168" style="width: 100.0%; height: 100.0%;">Cioccolati Italiani Average price for two:6.0</div>`)[0];
+                popup_4c7eaee167104ec897a514abcb0b4fb3.setContent(html_c79bba649d1e457ba27d1b803fcb5168);
+            
+
+            marker_e7cb8883f221425eae2a43aa7caeb5d6.bindPopup(popup_4c7eaee167104ec897a514abcb0b4fb3)
+            ;
+
+            
+        
+    
+        var marker_6b69ad5e1a8448988469a25b698f79a3 = L.marker(
+            [45.4570715353, 9.181609489],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_3838c946a79847a187cddc2a3ceb4d5a = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6b69ad5e1a8448988469a25b698f79a3.setIcon(icon_3838c946a79847a187cddc2a3ceb4d5a);
+            
+    
+            var popup_2894cd6aa7a242d593fe0330124f5a91 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a4b3b0d97b5343559123677642a7472b = $(`<div id="html_a4b3b0d97b5343559123677642a7472b" style="width: 100.0%; height: 100.0%;">La Dogana del Buongusto Average price for two:70.0</div>`)[0];
+                popup_2894cd6aa7a242d593fe0330124f5a91.setContent(html_a4b3b0d97b5343559123677642a7472b);
+            
+
+            marker_6b69ad5e1a8448988469a25b698f79a3.bindPopup(popup_2894cd6aa7a242d593fe0330124f5a91)
+            ;
+
+            
+        
+    
+        var marker_8995a81bcd934e76a9277c281ec9586b = L.marker(
+            [45.4655567974, 9.1910116374],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_f755b95a9cb14e1fa30f4c8e2e9d73f2 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8995a81bcd934e76a9277c281ec9586b.setIcon(icon_f755b95a9cb14e1fa30f4c8e2e9d73f2);
+            
+    
+            var popup_7adcf341c3bf4bd2b6b3fee420bb456a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_06ec2d26e45342af81fff3c2ad5eb009 = $(`<div id="html_06ec2d26e45342af81fff3c2ad5eb009" style="width: 100.0%; height: 100.0%;">Spontini Average price for two:15.0</div>`)[0];
+                popup_7adcf341c3bf4bd2b6b3fee420bb456a.setContent(html_06ec2d26e45342af81fff3c2ad5eb009);
+            
+
+            marker_8995a81bcd934e76a9277c281ec9586b.bindPopup(popup_7adcf341c3bf4bd2b6b3fee420bb456a)
+            ;
+
+            
+        
+    
+        var marker_c038f54f812d44f687e546e9bb824749 = L.marker(
+            [45.46296, 9.18845],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_1da370b865a649d6a7668823c07012dd = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c038f54f812d44f687e546e9bb824749.setIcon(icon_1da370b865a649d6a7668823c07012dd);
+            
+    
+            var popup_666839c0a6534d44bc77ba1cc7228c32 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2647702340084ea099d1deb4a606713e = $(`<div id="html_2647702340084ea099d1deb4a606713e" style="width: 100.0%; height: 100.0%;">Hotel La Madonnina Price per night for two: 238 Amount of restaurants nearby: 5</div>`)[0];
+                popup_666839c0a6534d44bc77ba1cc7228c32.setContent(html_2647702340084ea099d1deb4a606713e);
+            
+
+            marker_c038f54f812d44f687e546e9bb824749.bindPopup(popup_666839c0a6534d44bc77ba1cc7228c32)
+            ;
+
+            
+        
+    
+        var marker_a1fb3e241a8649efb8ee65abab615579 = L.marker(
+            [45.4657075231, 9.1914293915],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_d088bb45fd114a16b3975dfa53c4d833 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a1fb3e241a8649efb8ee65abab615579.setIcon(icon_d088bb45fd114a16b3975dfa53c4d833);
+            
+    
+            var popup_a58e3708be7d4d27976a3bba977678c6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0b3ea868e818462ea3d578f08b2e684a = $(`<div id="html_0b3ea868e818462ea3d578f08b2e684a" style="width: 100.0%; height: 100.0%;">Luini Average price for two:10.0</div>`)[0];
+                popup_a58e3708be7d4d27976a3bba977678c6.setContent(html_0b3ea868e818462ea3d578f08b2e684a);
+            
+
+            marker_a1fb3e241a8649efb8ee65abab615579.bindPopup(popup_a58e3708be7d4d27976a3bba977678c6)
+            ;
+
+            
+        
+    
+        var marker_688ec35700e84742bd048a5df6dfbf45 = L.marker(
+            [45.4657317427, 9.1911967099],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_e921a7a3fbe2408a97df488929ba908b = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_688ec35700e84742bd048a5df6dfbf45.setIcon(icon_e921a7a3fbe2408a97df488929ba908b);
+            
+    
+            var popup_6197d05294a842fc8db6e8d0788170a1 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3ef8a9885af548a7a2cc8084f7ce5a06 = $(`<div id="html_3ef8a9885af548a7a2cc8084f7ce5a06" style="width: 100.0%; height: 100.0%;">Cioccolati Italiani Average price for two:6.0</div>`)[0];
+                popup_6197d05294a842fc8db6e8d0788170a1.setContent(html_3ef8a9885af548a7a2cc8084f7ce5a06);
+            
+
+            marker_688ec35700e84742bd048a5df6dfbf45.bindPopup(popup_6197d05294a842fc8db6e8d0788170a1)
+            ;
+
+            
+        
+    
+        var marker_a1af9c3b62044c3f8440e0ce93e901ef = L.marker(
+            [45.4570715353, 9.181609489],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_36298a57339b446dafda18d403a717ef = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a1af9c3b62044c3f8440e0ce93e901ef.setIcon(icon_36298a57339b446dafda18d403a717ef);
+            
+    
+            var popup_15a4ca27420b47ecb7eab3e72cb0ad5f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_90050db7ae2d4e99be486d9e11740338 = $(`<div id="html_90050db7ae2d4e99be486d9e11740338" style="width: 100.0%; height: 100.0%;">La Dogana del Buongusto Average price for two:70.0</div>`)[0];
+                popup_15a4ca27420b47ecb7eab3e72cb0ad5f.setContent(html_90050db7ae2d4e99be486d9e11740338);
+            
+
+            marker_a1af9c3b62044c3f8440e0ce93e901ef.bindPopup(popup_15a4ca27420b47ecb7eab3e72cb0ad5f)
+            ;
+
+            
+        
+    
+        var marker_2da278948c334aedb1284564c324f603 = L.marker(
+            [45.4655567974, 9.1910116374],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_539ba124ed364a3986455fa0844879d1 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2da278948c334aedb1284564c324f603.setIcon(icon_539ba124ed364a3986455fa0844879d1);
+            
+    
+            var popup_d552ea8d0a8e426aa1cfff21ab020a8f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_64e8bb5485a1401487391f1e66f3eda1 = $(`<div id="html_64e8bb5485a1401487391f1e66f3eda1" style="width: 100.0%; height: 100.0%;">Spontini Average price for two:15.0</div>`)[0];
+                popup_d552ea8d0a8e426aa1cfff21ab020a8f.setContent(html_64e8bb5485a1401487391f1e66f3eda1);
+            
+
+            marker_2da278948c334aedb1284564c324f603.bindPopup(popup_d552ea8d0a8e426aa1cfff21ab020a8f)
+            ;
+
+            
+        
+    
+        var marker_8cb3afe9371d4e1da511d9326718eefd = L.marker(
+            [45.46084, 9.18507],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_46b6fc88660e451da313dfa42d6a15cb = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8cb3afe9371d4e1da511d9326718eefd.setIcon(icon_46b6fc88660e451da313dfa42d6a15cb);
+            
+    
+            var popup_076443ff9bb04cdbaff39f668ab30c03 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a199eeebc4934debb8b2e40bac2ab276 = $(`<div id="html_a199eeebc4934debb8b2e40bac2ab276" style="width: 100.0%; height: 100.0%;">Heart Milan Apartments Duomo Terrace Price per night for two: 301 Amount of restaurants nearby: 4</div>`)[0];
+                popup_076443ff9bb04cdbaff39f668ab30c03.setContent(html_a199eeebc4934debb8b2e40bac2ab276);
+            
+
+            marker_8cb3afe9371d4e1da511d9326718eefd.bindPopup(popup_076443ff9bb04cdbaff39f668ab30c03)
+            ;
+
+            
+        
+    
+        var marker_43d4cc17c6c64d27b1dd757b8a05a440 = L.marker(
+            [45.4647935218, 9.1965450346],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_c51ab855f5cf498b8880b603cce86b8d = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_43d4cc17c6c64d27b1dd757b8a05a440.setIcon(icon_c51ab855f5cf498b8880b603cce86b8d);
+            
+    
+            var popup_91c8a7727a5443fd9bd7834ee02045a4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_bf900eb315574bf3ad55bbc747051db6 = $(`<div id="html_bf900eb315574bf3ad55bbc747051db6" style="width: 100.0%; height: 100.0%;">Pizzeria Gino Sorbillo - Lievito Madre al Duomo Average price for two:40.0</div>`)[0];
+                popup_91c8a7727a5443fd9bd7834ee02045a4.setContent(html_bf900eb315574bf3ad55bbc747051db6);
+            
+
+            marker_43d4cc17c6c64d27b1dd757b8a05a440.bindPopup(popup_91c8a7727a5443fd9bd7834ee02045a4)
+            ;
+
+            
+        
+    
+        var marker_c4749bc5f21c49fd8e8a74836581d7c4 = L.marker(
+            [45.4657075231, 9.1914293915],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_73cbc24e1fc54847bfebb6e5efa30f57 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c4749bc5f21c49fd8e8a74836581d7c4.setIcon(icon_73cbc24e1fc54847bfebb6e5efa30f57);
+            
+    
+            var popup_a1912a89402a48889e032d40093c4c7f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_530fe42ff2fe4085b09f1813a206d99d = $(`<div id="html_530fe42ff2fe4085b09f1813a206d99d" style="width: 100.0%; height: 100.0%;">Luini Average price for two:10.0</div>`)[0];
+                popup_a1912a89402a48889e032d40093c4c7f.setContent(html_530fe42ff2fe4085b09f1813a206d99d);
+            
+
+            marker_c4749bc5f21c49fd8e8a74836581d7c4.bindPopup(popup_a1912a89402a48889e032d40093c4c7f)
+            ;
+
+            
+        
+    
+        var marker_594afd0d33b34aa2a9950a4174f21978 = L.marker(
+            [45.455912, 9.196162],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_f71cf4caf2144a70a03379ebe73b22f6 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_594afd0d33b34aa2a9950a4174f21978.setIcon(icon_f71cf4caf2144a70a03379ebe73b22f6);
+            
+    
+            var popup_b0bd8cd2fd7348d0b7498edeea711def = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c68a9b04b3e542a7aa8e2bd065f45efe = $(`<div id="html_c68a9b04b3e542a7aa8e2bd065f45efe" style="width: 100.0%; height: 100.0%;">Pizza Am Average price for two:30.0</div>`)[0];
+                popup_b0bd8cd2fd7348d0b7498edeea711def.setContent(html_c68a9b04b3e542a7aa8e2bd065f45efe);
+            
+
+            marker_594afd0d33b34aa2a9950a4174f21978.bindPopup(popup_b0bd8cd2fd7348d0b7498edeea711def)
+            ;
+
+            
+        
+    
+        var marker_6a9b7dd13d6c4f69b13c28698ea990af = L.marker(
+            [45.4657317427, 9.1911967099],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_feef18a365f24a15ba4e6900aa8461fa = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6a9b7dd13d6c4f69b13c28698ea990af.setIcon(icon_feef18a365f24a15ba4e6900aa8461fa);
+            
+    
+            var popup_37d4d2f3178f4a5887672c17dec54a3f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_fd604a1d165145e18aebb62b9083d1eb = $(`<div id="html_fd604a1d165145e18aebb62b9083d1eb" style="width: 100.0%; height: 100.0%;">Cioccolati Italiani Average price for two:6.0</div>`)[0];
+                popup_37d4d2f3178f4a5887672c17dec54a3f.setContent(html_fd604a1d165145e18aebb62b9083d1eb);
+            
+
+            marker_6a9b7dd13d6c4f69b13c28698ea990af.bindPopup(popup_37d4d2f3178f4a5887672c17dec54a3f)
+            ;
+
+            
+        
+    
+        var marker_5cd40811ad624225ba74f1d8a51080f0 = L.marker(
+            [45.4655567974, 9.1910116374],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_a60c4d2c57564102a296fa664bb7687f = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5cd40811ad624225ba74f1d8a51080f0.setIcon(icon_a60c4d2c57564102a296fa664bb7687f);
+            
+    
+            var popup_b03bfad049654b90b7364384d9ddf7c3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3bf77eeaa8c7406388f74ec11d5de3e4 = $(`<div id="html_3bf77eeaa8c7406388f74ec11d5de3e4" style="width: 100.0%; height: 100.0%;">Spontini Average price for two:15.0</div>`)[0];
+                popup_b03bfad049654b90b7364384d9ddf7c3.setContent(html_3bf77eeaa8c7406388f74ec11d5de3e4);
+            
+
+            marker_5cd40811ad624225ba74f1d8a51080f0.bindPopup(popup_b03bfad049654b90b7364384d9ddf7c3)
+            ;
+
+            
+        
+    
+        var marker_40bdc17cb9564a9b97e656e915f53026 = L.marker(
+            [45.45746, 9.192],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_dc41d52ecf7e446a8b0fc5423789129c = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_40bdc17cb9564a9b97e656e915f53026.setIcon(icon_dc41d52ecf7e446a8b0fc5423789129c);
+            
+    
+            var popup_1656144671e9496ebfbf79aaf9c7dbd8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3fe5a4af06154ea5a259e66d9be57e37 = $(`<div id="html_3fe5a4af06154ea5a259e66d9be57e37" style="width: 100.0%; height: 100.0%;">Uptown Palace Price per night for two: 207 Amount of restaurants nearby: 5</div>`)[0];
+                popup_1656144671e9496ebfbf79aaf9c7dbd8.setContent(html_3fe5a4af06154ea5a259e66d9be57e37);
+            
+
+            marker_40bdc17cb9564a9b97e656e915f53026.bindPopup(popup_1656144671e9496ebfbf79aaf9c7dbd8)
+            ;
+
+            
+        
+    
+        var marker_8e95642afa78429aae774a1b435d0da5 = L.marker(
+            [45.4647935218, 9.1965450346],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_041250bdfd6a410aa6d9abaca0d8465e = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8e95642afa78429aae774a1b435d0da5.setIcon(icon_041250bdfd6a410aa6d9abaca0d8465e);
+            
+    
+            var popup_811d3a19c5fc4b33819bfd49df4ff1a7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_cf04853de9014d8193c0f50ab9891372 = $(`<div id="html_cf04853de9014d8193c0f50ab9891372" style="width: 100.0%; height: 100.0%;">Pizzeria Gino Sorbillo - Lievito Madre al Duomo Average price for two:40.0</div>`)[0];
+                popup_811d3a19c5fc4b33819bfd49df4ff1a7.setContent(html_cf04853de9014d8193c0f50ab9891372);
+            
+
+            marker_8e95642afa78429aae774a1b435d0da5.bindPopup(popup_811d3a19c5fc4b33819bfd49df4ff1a7)
+            ;
+
+            
+        
+    
+        var marker_57cebebbc5ca435ca4b8ee8fd30a0d8f = L.marker(
+            [45.4657075231, 9.1914293915],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_bd175f5642614580bae2e38a16dd26e3 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_57cebebbc5ca435ca4b8ee8fd30a0d8f.setIcon(icon_bd175f5642614580bae2e38a16dd26e3);
+            
+    
+            var popup_56acebfef8ee4836ba3692269abf9331 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_28b6923480d244a79a68c37c02948313 = $(`<div id="html_28b6923480d244a79a68c37c02948313" style="width: 100.0%; height: 100.0%;">Luini Average price for two:10.0</div>`)[0];
+                popup_56acebfef8ee4836ba3692269abf9331.setContent(html_28b6923480d244a79a68c37c02948313);
+            
+
+            marker_57cebebbc5ca435ca4b8ee8fd30a0d8f.bindPopup(popup_56acebfef8ee4836ba3692269abf9331)
+            ;
+
+            
+        
+    
+        var marker_06c7b1dc69a6487e8c61832b4f277f62 = L.marker(
+            [45.455912, 9.196162],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_7f1c01d302a34319b4440e5f4507c1f8 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_06c7b1dc69a6487e8c61832b4f277f62.setIcon(icon_7f1c01d302a34319b4440e5f4507c1f8);
+            
+    
+            var popup_cd9ac0e7e26d4f9e907124c51c08d101 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_05f5d2ed27244a30be719cccf4792729 = $(`<div id="html_05f5d2ed27244a30be719cccf4792729" style="width: 100.0%; height: 100.0%;">Pizza Am Average price for two:30.0</div>`)[0];
+                popup_cd9ac0e7e26d4f9e907124c51c08d101.setContent(html_05f5d2ed27244a30be719cccf4792729);
+            
+
+            marker_06c7b1dc69a6487e8c61832b4f277f62.bindPopup(popup_cd9ac0e7e26d4f9e907124c51c08d101)
+            ;
+
+            
+        
+    
+        var marker_e60686e913584a79841e35ff344d2b09 = L.marker(
+            [45.4657317427, 9.1911967099],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_62ce9f56b9694719b3e972deec62e7f7 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e60686e913584a79841e35ff344d2b09.setIcon(icon_62ce9f56b9694719b3e972deec62e7f7);
+            
+    
+            var popup_d416ba70c572438787b472ca83d54cfe = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_22d1ef866ba34e928d345f4b8cb7b163 = $(`<div id="html_22d1ef866ba34e928d345f4b8cb7b163" style="width: 100.0%; height: 100.0%;">Cioccolati Italiani Average price for two:6.0</div>`)[0];
+                popup_d416ba70c572438787b472ca83d54cfe.setContent(html_22d1ef866ba34e928d345f4b8cb7b163);
+            
+
+            marker_e60686e913584a79841e35ff344d2b09.bindPopup(popup_d416ba70c572438787b472ca83d54cfe)
+            ;
+
+            
+        
+    
+        var marker_248a0b74ae2942a2ab41bbda32afbe88 = L.marker(
+            [45.4570715353, 9.181609489],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_e8e1e1ed2b0e404a9d021b555e9c3c7c = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_248a0b74ae2942a2ab41bbda32afbe88.setIcon(icon_e8e1e1ed2b0e404a9d021b555e9c3c7c);
+            
+    
+            var popup_b7d16ccc1d5a4d31888f12f61edcab4b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3ad418c791d146558ad85e0d0dda6aa4 = $(`<div id="html_3ad418c791d146558ad85e0d0dda6aa4" style="width: 100.0%; height: 100.0%;">La Dogana del Buongusto Average price for two:70.0</div>`)[0];
+                popup_b7d16ccc1d5a4d31888f12f61edcab4b.setContent(html_3ad418c791d146558ad85e0d0dda6aa4);
+            
+
+            marker_248a0b74ae2942a2ab41bbda32afbe88.bindPopup(popup_b7d16ccc1d5a4d31888f12f61edcab4b)
+            ;
+
+            
+        
+    
+        var marker_eccbac81f4594bf3ab67cbf9d0265d1c = L.marker(
+            [45.4655567974, 9.1910116374],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_b3625d5215ec470eb0bb6c7c0bd87f37 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_eccbac81f4594bf3ab67cbf9d0265d1c.setIcon(icon_b3625d5215ec470eb0bb6c7c0bd87f37);
+            
+    
+            var popup_0a06b65b223e4ecabeb4ce023cea7216 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5ab95b4e21ac4d01aa9e3acb163bbbbe = $(`<div id="html_5ab95b4e21ac4d01aa9e3acb163bbbbe" style="width: 100.0%; height: 100.0%;">Spontini Average price for two:15.0</div>`)[0];
+                popup_0a06b65b223e4ecabeb4ce023cea7216.setContent(html_5ab95b4e21ac4d01aa9e3acb163bbbbe);
+            
+
+            marker_eccbac81f4594bf3ab67cbf9d0265d1c.bindPopup(popup_0a06b65b223e4ecabeb4ce023cea7216)
+            ;
+
+            
+        
+    
+        var marker_0c9ee1eb04bc4168a1e7f11de9308a33 = L.marker(
+            [45.45731, 9.19109],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_1902b7c499ca474eb8a4d187bbac7394 = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0c9ee1eb04bc4168a1e7f11de9308a33.setIcon(icon_1902b7c499ca474eb8a4d187bbac7394);
+            
+    
+            var popup_240d30a9040f427f8703ff5b02706d31 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_97c01d5c493749489f4867256c018676 = $(`<div id="html_97c01d5c493749489f4867256c018676" style="width: 100.0%; height: 100.0%;">Hotel Canada Price per night for two: 178 Amount of restaurants nearby: 6</div>`)[0];
+                popup_240d30a9040f427f8703ff5b02706d31.setContent(html_97c01d5c493749489f4867256c018676);
+            
+
+            marker_0c9ee1eb04bc4168a1e7f11de9308a33.bindPopup(popup_240d30a9040f427f8703ff5b02706d31)
+            ;
+
+            
+        
+    
+        var marker_39e634d1f15746a08e0d60acfdf9f7e3 = L.marker(
+            [45.4647935218, 9.1965450346],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_735ab189eea149748c430fc62ebf17f6 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_39e634d1f15746a08e0d60acfdf9f7e3.setIcon(icon_735ab189eea149748c430fc62ebf17f6);
+            
+    
+            var popup_4171340fcd054fdb957b2e76f4c560c1 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f352d0c8f3e6426e9835aeb8e752c0cc = $(`<div id="html_f352d0c8f3e6426e9835aeb8e752c0cc" style="width: 100.0%; height: 100.0%;">Pizzeria Gino Sorbillo - Lievito Madre al Duomo Average price for two:40.0</div>`)[0];
+                popup_4171340fcd054fdb957b2e76f4c560c1.setContent(html_f352d0c8f3e6426e9835aeb8e752c0cc);
+            
+
+            marker_39e634d1f15746a08e0d60acfdf9f7e3.bindPopup(popup_4171340fcd054fdb957b2e76f4c560c1)
+            ;
+
+            
+        
+    
+        var marker_787b3f178d084b1eb0fd21a072dd4b9f = L.marker(
+            [45.4657075231, 9.1914293915],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_30129a279cb54e0db7521c5fb6404249 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_787b3f178d084b1eb0fd21a072dd4b9f.setIcon(icon_30129a279cb54e0db7521c5fb6404249);
+            
+    
+            var popup_131ac89774a94c7ea2c429813178b933 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ccc968aec69145a193f00a0d55080737 = $(`<div id="html_ccc968aec69145a193f00a0d55080737" style="width: 100.0%; height: 100.0%;">Luini Average price for two:10.0</div>`)[0];
+                popup_131ac89774a94c7ea2c429813178b933.setContent(html_ccc968aec69145a193f00a0d55080737);
+            
+
+            marker_787b3f178d084b1eb0fd21a072dd4b9f.bindPopup(popup_131ac89774a94c7ea2c429813178b933)
+            ;
+
+            
+        
+    
+        var marker_64a8b86e6e5547af8f78a2d7495a7fca = L.marker(
+            [45.455912, 9.196162],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_81d8be52c6484bd084d21644c5ca0387 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_64a8b86e6e5547af8f78a2d7495a7fca.setIcon(icon_81d8be52c6484bd084d21644c5ca0387);
+            
+    
+            var popup_8bbadb24b63248a9b8f7f625f2bea172 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b4efd4e97d654a9686c81495f33fddf1 = $(`<div id="html_b4efd4e97d654a9686c81495f33fddf1" style="width: 100.0%; height: 100.0%;">Pizza Am Average price for two:30.0</div>`)[0];
+                popup_8bbadb24b63248a9b8f7f625f2bea172.setContent(html_b4efd4e97d654a9686c81495f33fddf1);
+            
+
+            marker_64a8b86e6e5547af8f78a2d7495a7fca.bindPopup(popup_8bbadb24b63248a9b8f7f625f2bea172)
+            ;
+
+            
+        
+    
+        var marker_bd6068d75b1c43de8ffcee823c693975 = L.marker(
+            [45.4657317427, 9.1911967099],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_abf2e097755146549408e5d07573670f = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bd6068d75b1c43de8ffcee823c693975.setIcon(icon_abf2e097755146549408e5d07573670f);
+            
+    
+            var popup_13f2f4e9b30d411ead6ad23afd91afa6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_add09e0761f0434ba14a9dd096f89b50 = $(`<div id="html_add09e0761f0434ba14a9dd096f89b50" style="width: 100.0%; height: 100.0%;">Cioccolati Italiani Average price for two:6.0</div>`)[0];
+                popup_13f2f4e9b30d411ead6ad23afd91afa6.setContent(html_add09e0761f0434ba14a9dd096f89b50);
+            
+
+            marker_bd6068d75b1c43de8ffcee823c693975.bindPopup(popup_13f2f4e9b30d411ead6ad23afd91afa6)
+            ;
+
+            
+        
+    
+        var marker_8c5834fb1fb64726a8972fca9b63903c = L.marker(
+            [45.4655567974, 9.1910116374],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_b0ef80f487774486853a6527e41ec921 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8c5834fb1fb64726a8972fca9b63903c.setIcon(icon_b0ef80f487774486853a6527e41ec921);
+            
+    
+            var popup_0cfa7357d5ad491d9d9d8820c2eb5d24 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_72b9fab886494ed8a53e7b3307cb2231 = $(`<div id="html_72b9fab886494ed8a53e7b3307cb2231" style="width: 100.0%; height: 100.0%;">Spontini Average price for two:15.0</div>`)[0];
+                popup_0cfa7357d5ad491d9d9d8820c2eb5d24.setContent(html_72b9fab886494ed8a53e7b3307cb2231);
+            
+
+            marker_8c5834fb1fb64726a8972fca9b63903c.bindPopup(popup_0cfa7357d5ad491d9d9d8820c2eb5d24)
+            ;
+
+            
+        
+    
+        var marker_a6f62e15922f42dc91bf630ac9ff5563 = L.marker(
+            [45.46378, 9.19399],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_d7604bf52fb04a1f98e16185a02d9d1c = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a6f62e15922f42dc91bf630ac9ff5563.setIcon(icon_d7604bf52fb04a1f98e16185a02d9d1c);
+            
+    
+            var popup_44a49c1d2c994934be224eeff6ec92db = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f402ffc36fc14464997c0e2ff7047e1a = $(`<div id="html_f402ffc36fc14464997c0e2ff7047e1a" style="width: 100.0%; height: 100.0%;">Rosa Grand Milano - Starhotels Collezione Price per night for two: 315 Amount of restaurants nearby: 5</div>`)[0];
+                popup_44a49c1d2c994934be224eeff6ec92db.setContent(html_f402ffc36fc14464997c0e2ff7047e1a);
+            
+
+            marker_a6f62e15922f42dc91bf630ac9ff5563.bindPopup(popup_44a49c1d2c994934be224eeff6ec92db)
+            ;
+
+            
+        
+    
+        var marker_34434e352c814306ba988bce33cd692f = L.marker(
+            [45.4647935218, 9.1965450346],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_1fcce373d87a44c49df1d4da886e9923 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_34434e352c814306ba988bce33cd692f.setIcon(icon_1fcce373d87a44c49df1d4da886e9923);
+            
+    
+            var popup_80ddff1a47a242f0b09ada35a780f6b8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2000a9855ee5445e9b6d898a3927f2df = $(`<div id="html_2000a9855ee5445e9b6d898a3927f2df" style="width: 100.0%; height: 100.0%;">Pizzeria Gino Sorbillo - Lievito Madre al Duomo Average price for two:40.0</div>`)[0];
+                popup_80ddff1a47a242f0b09ada35a780f6b8.setContent(html_2000a9855ee5445e9b6d898a3927f2df);
+            
+
+            marker_34434e352c814306ba988bce33cd692f.bindPopup(popup_80ddff1a47a242f0b09ada35a780f6b8)
+            ;
+
+            
+        
+    
+        var marker_c6e12f3ceb634bdf874e29dac1fd6134 = L.marker(
+            [45.4657075231, 9.1914293915],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_f80ebcd32efd4956b51daa93212c34ce = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c6e12f3ceb634bdf874e29dac1fd6134.setIcon(icon_f80ebcd32efd4956b51daa93212c34ce);
+            
+    
+            var popup_c81b988d4bc84ee1b9fbdfd7ed0066cd = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b86357e047874099ae7e25b5829f279d = $(`<div id="html_b86357e047874099ae7e25b5829f279d" style="width: 100.0%; height: 100.0%;">Luini Average price for two:10.0</div>`)[0];
+                popup_c81b988d4bc84ee1b9fbdfd7ed0066cd.setContent(html_b86357e047874099ae7e25b5829f279d);
+            
+
+            marker_c6e12f3ceb634bdf874e29dac1fd6134.bindPopup(popup_c81b988d4bc84ee1b9fbdfd7ed0066cd)
+            ;
+
+            
+        
+    
+        var marker_04b7c70bc3e44e20a502c46dc19d3245 = L.marker(
+            [45.4657317427, 9.1911967099],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_744b9addbe9642448ada91f7c0932874 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_04b7c70bc3e44e20a502c46dc19d3245.setIcon(icon_744b9addbe9642448ada91f7c0932874);
+            
+    
+            var popup_3683ad618e7a4f69a4a4d444b066617d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e6dd6aac240243c99ca53f622ba94144 = $(`<div id="html_e6dd6aac240243c99ca53f622ba94144" style="width: 100.0%; height: 100.0%;">Cioccolati Italiani Average price for two:6.0</div>`)[0];
+                popup_3683ad618e7a4f69a4a4d444b066617d.setContent(html_e6dd6aac240243c99ca53f622ba94144);
+            
+
+            marker_04b7c70bc3e44e20a502c46dc19d3245.bindPopup(popup_3683ad618e7a4f69a4a4d444b066617d)
+            ;
+
+            
+        
+    
+        var marker_6f316796bf9e4c3f9b7df60cbdfc719d = L.marker(
+            [45.4570715353, 9.181609489],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_da2ae5c7448a403c8f6e5cab2e67ed8e = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6f316796bf9e4c3f9b7df60cbdfc719d.setIcon(icon_da2ae5c7448a403c8f6e5cab2e67ed8e);
+            
+    
+            var popup_d554a19eff08481da0b00076bf1c9bdf = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d06647453c034dc8a77183b3fcb12533 = $(`<div id="html_d06647453c034dc8a77183b3fcb12533" style="width: 100.0%; height: 100.0%;">La Dogana del Buongusto Average price for two:70.0</div>`)[0];
+                popup_d554a19eff08481da0b00076bf1c9bdf.setContent(html_d06647453c034dc8a77183b3fcb12533);
+            
+
+            marker_6f316796bf9e4c3f9b7df60cbdfc719d.bindPopup(popup_d554a19eff08481da0b00076bf1c9bdf)
+            ;
+
+            
+        
+    
+        var marker_55b36b80706e4dd6833fbdcf0635e8ce = L.marker(
+            [45.4655567974, 9.1910116374],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_fc1546e6888842368e50eacb1b705d5a = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_55b36b80706e4dd6833fbdcf0635e8ce.setIcon(icon_fc1546e6888842368e50eacb1b705d5a);
+            
+    
+            var popup_5063f79a52c348a0994eb82f8bf930ad = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_84731a5c316144b6bf05c5ff1c70390c = $(`<div id="html_84731a5c316144b6bf05c5ff1c70390c" style="width: 100.0%; height: 100.0%;">Spontini Average price for two:15.0</div>`)[0];
+                popup_5063f79a52c348a0994eb82f8bf930ad.setContent(html_84731a5c316144b6bf05c5ff1c70390c);
+            
+
+            marker_55b36b80706e4dd6833fbdcf0635e8ce.bindPopup(popup_5063f79a52c348a0994eb82f8bf930ad)
+            ;
+
+            
+        
+    
+        var marker_92c74f6279024357b6966123d4f0c397 = L.marker(
+            [45.46359, 9.18687],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_c999feb0752248318ceeb2c3e702bcbc = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_92c74f6279024357b6966123d4f0c397.setIcon(icon_c999feb0752248318ceeb2c3e702bcbc);
+            
+    
+            var popup_a0b8055fe3634c4c94f98540de960440 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7135969e80544ab2989f1ff74ccd3a9c = $(`<div id="html_7135969e80544ab2989f1ff74ccd3a9c" style="width: 100.0%; height: 100.0%;">Hotel Spadari Al Duomo Price per night for two: 297 Amount of restaurants nearby: 5</div>`)[0];
+                popup_a0b8055fe3634c4c94f98540de960440.setContent(html_7135969e80544ab2989f1ff74ccd3a9c);
+            
+
+            marker_92c74f6279024357b6966123d4f0c397.bindPopup(popup_a0b8055fe3634c4c94f98540de960440)
+            ;
+
+            
+        
+    
+        var marker_d812dddd34a5494480fa43ed1b66dcc0 = L.marker(
+            [45.4747411603, 9.1833318025],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_6294d0b8ca0b48b08b1c713da5b5ae90 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d812dddd34a5494480fa43ed1b66dcc0.setIcon(icon_6294d0b8ca0b48b08b1c713da5b5ae90);
+            
+    
+            var popup_5c668d5a626c4fa5ba94d9380365520d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0e85ce3a20944bb882353c7ae5e42044 = $(`<div id="html_0e85ce3a20944bb882353c7ae5e42044" style="width: 100.0%; height: 100.0%;">Temakinho Average price for two:70.0</div>`)[0];
+                popup_5c668d5a626c4fa5ba94d9380365520d.setContent(html_0e85ce3a20944bb882353c7ae5e42044);
+            
+
+            marker_d812dddd34a5494480fa43ed1b66dcc0.bindPopup(popup_5c668d5a626c4fa5ba94d9380365520d)
+            ;
+
+            
+        
+    
+        var marker_901d8354166c4e29a7c576f8c2cfe516 = L.marker(
+            [45.4657075231, 9.1914293915],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_ea00ab8889ba4ec79fea1e9ae54717c9 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_901d8354166c4e29a7c576f8c2cfe516.setIcon(icon_ea00ab8889ba4ec79fea1e9ae54717c9);
+            
+    
+            var popup_5f87e0e1bb8d4f39a22827139468242b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_312438b5e4264993b5e9aed7d9bd5af8 = $(`<div id="html_312438b5e4264993b5e9aed7d9bd5af8" style="width: 100.0%; height: 100.0%;">Luini Average price for two:10.0</div>`)[0];
+                popup_5f87e0e1bb8d4f39a22827139468242b.setContent(html_312438b5e4264993b5e9aed7d9bd5af8);
+            
+
+            marker_901d8354166c4e29a7c576f8c2cfe516.bindPopup(popup_5f87e0e1bb8d4f39a22827139468242b)
+            ;
+
+            
+        
+    
+        var marker_1558a1672ed5427dbd11560c87d10db4 = L.marker(
+            [45.4657317427, 9.1911967099],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_732a27620eb64790a5df75dc17888d65 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1558a1672ed5427dbd11560c87d10db4.setIcon(icon_732a27620eb64790a5df75dc17888d65);
+            
+    
+            var popup_eeead4f6c8094e088286b7866bed9531 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f8b6a2fcbbe049deba938a7adb62d35e = $(`<div id="html_f8b6a2fcbbe049deba938a7adb62d35e" style="width: 100.0%; height: 100.0%;">Cioccolati Italiani Average price for two:6.0</div>`)[0];
+                popup_eeead4f6c8094e088286b7866bed9531.setContent(html_f8b6a2fcbbe049deba938a7adb62d35e);
+            
+
+            marker_1558a1672ed5427dbd11560c87d10db4.bindPopup(popup_eeead4f6c8094e088286b7866bed9531)
+            ;
+
+            
+        
+    
+        var marker_3af73439b5a74eabafc65bf70e93d1b6 = L.marker(
+            [45.4655567974, 9.1910116374],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_dec6ccbf057e49eda90e164d4895f47b = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3af73439b5a74eabafc65bf70e93d1b6.setIcon(icon_dec6ccbf057e49eda90e164d4895f47b);
+            
+    
+            var popup_8a9552cc1db545338021abe8e6e3a8f0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8fb6da74246f4d9d82abe139da410c1e = $(`<div id="html_8fb6da74246f4d9d82abe139da410c1e" style="width: 100.0%; height: 100.0%;">Spontini Average price for two:15.0</div>`)[0];
+                popup_8a9552cc1db545338021abe8e6e3a8f0.setContent(html_8fb6da74246f4d9d82abe139da410c1e);
+            
+
+            marker_3af73439b5a74eabafc65bf70e93d1b6.bindPopup(popup_8a9552cc1db545338021abe8e6e3a8f0)
+            ;
+
+            
+        
+    
+        var marker_0b4c109165f043eca13d5e7d4ebfc65a = L.marker(
+            [45.4614122698, 9.1919343174],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_301c1209bc5d4b9ca0e6d21f62df1989 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0b4c109165f043eca13d5e7d4ebfc65a.setIcon(icon_301c1209bc5d4b9ca0e6d21f62df1989);
+            
+    
+            var popup_6210a5ef69b546449df36d04b00a264a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_375b0fbb9c044ecb8b7a4f116714293c = $(`<div id="html_375b0fbb9c044ecb8b7a4f116714293c" style="width: 100.0%; height: 100.0%;">California Bakery Average price for two:30.0</div>`)[0];
+                popup_6210a5ef69b546449df36d04b00a264a.setContent(html_375b0fbb9c044ecb8b7a4f116714293c);
+            
+
+            marker_0b4c109165f043eca13d5e7d4ebfc65a.bindPopup(popup_6210a5ef69b546449df36d04b00a264a)
+            ;
+
+            
+        
+    
+        var marker_a432fe9d7e3e4140a346ace366899f29 = L.marker(
+            [45.46741, 9.18625],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_39f5b96146a54d3b96e79f06f72a6976 = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a432fe9d7e3e4140a346ace366899f29.setIcon(icon_39f5b96146a54d3b96e79f06f72a6976);
+            
+    
+            var popup_9ef7babf16444c66bc650aaecc9c932d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f2d81c62d37f45bca92bef0d45ac71b4 = $(`<div id="html_f2d81c62d37f45bca92bef0d45ac71b4" style="width: 100.0%; height: 100.0%;">Hotel Star Price per night for two: 293 Amount of restaurants nearby: 5</div>`)[0];
+                popup_9ef7babf16444c66bc650aaecc9c932d.setContent(html_f2d81c62d37f45bca92bef0d45ac71b4);
+            
+
+            marker_a432fe9d7e3e4140a346ace366899f29.bindPopup(popup_9ef7babf16444c66bc650aaecc9c932d)
+            ;
+
+            
+        
+    
+        var marker_93b71171a9f34b80bab1be9ea9b96eaf = L.marker(
+            [45.4570715353, 9.181609489],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_056e469689214c9e8bb4dc434f4501d6 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_93b71171a9f34b80bab1be9ea9b96eaf.setIcon(icon_056e469689214c9e8bb4dc434f4501d6);
+            
+    
+            var popup_f7d3da8ccaf44c1eac9e5bb5d04c9402 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e76bf69f3b1144dd85718379d2f50e7e = $(`<div id="html_e76bf69f3b1144dd85718379d2f50e7e" style="width: 100.0%; height: 100.0%;">La Dogana del Buongusto Average price for two:70.0</div>`)[0];
+                popup_f7d3da8ccaf44c1eac9e5bb5d04c9402.setContent(html_e76bf69f3b1144dd85718379d2f50e7e);
+            
+
+            marker_93b71171a9f34b80bab1be9ea9b96eaf.bindPopup(popup_f7d3da8ccaf44c1eac9e5bb5d04c9402)
+            ;
+
+            
+        
+    
+        var marker_6caf1f6598fb4e6f98c2667a0612d018 = L.marker(
+            [45.455712, 9.174993],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_be3dd8cf0646431fa64303ee482c902d = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6caf1f6598fb4e6f98c2667a0612d018.setIcon(icon_be3dd8cf0646431fa64303ee482c902d);
+            
+    
+            var popup_accbce7c7a134bd49c29c2900727ac6f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_57e5fccec8554a3fa460c58773e359fe = $(`<div id="html_57e5fccec8554a3fa460c58773e359fe" style="width: 100.0%; height: 100.0%;">Cumino Bistrot Average price for two:60.0</div>`)[0];
+                popup_accbce7c7a134bd49c29c2900727ac6f.setContent(html_57e5fccec8554a3fa460c58773e359fe);
+            
+
+            marker_6caf1f6598fb4e6f98c2667a0612d018.bindPopup(popup_accbce7c7a134bd49c29c2900727ac6f)
+            ;
+
+            
+        
+    
+        var marker_11d0b34ee41c4a50ae4ff25387747cf8 = L.marker(
+            [45.4580222222, 9.177525],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_7d26f5f800d8495692d8ab729b67cbbd = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_11d0b34ee41c4a50ae4ff25387747cf8.setIcon(icon_7d26f5f800d8495692d8ab729b67cbbd);
+            
+    
+            var popup_3c53f0bc1a004329884e167008dd7cf8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ce75db0bcac748bcad2db2390c3e6a7c = $(`<div id="html_ce75db0bcac748bcad2db2390c3e6a7c" style="width: 100.0%; height: 100.0%;">Drogheria Milanese Average price for two:60.0</div>`)[0];
+                popup_3c53f0bc1a004329884e167008dd7cf8.setContent(html_ce75db0bcac748bcad2db2390c3e6a7c);
+            
+
+            marker_11d0b34ee41c4a50ae4ff25387747cf8.bindPopup(popup_3c53f0bc1a004329884e167008dd7cf8)
+            ;
+
+            
+        
+    
+        var marker_4777fa80244549829306498325f2fbfc = L.marker(
+            [45.46065, 9.1812],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_468c10fdbd424a0ba369f2d9287e6b47 = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4777fa80244549829306498325f2fbfc.setIcon(icon_468c10fdbd424a0ba369f2d9287e6b47);
+            
+    
+            var popup_42d80dcdb7ed47c897be256b635aee6d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_aa345f531f2f419e81cb2f9ff5f2407d = $(`<div id="html_aa345f531f2f419e81cb2f9ff5f2407d" style="width: 100.0%; height: 100.0%;">Hotel Carrobbio Price per night for two: 192 Amount of restaurants nearby: 3</div>`)[0];
+                popup_42d80dcdb7ed47c897be256b635aee6d.setContent(html_aa345f531f2f419e81cb2f9ff5f2407d);
+            
+
+            marker_4777fa80244549829306498325f2fbfc.bindPopup(popup_42d80dcdb7ed47c897be256b635aee6d)
+            ;
+
+            
+        
+    
+        var marker_ebfe8263f5274a9680b42317c7ec4f71 = L.marker(
+            [45.4657075231, 9.1914293915],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_dcaeb0fb00fa423d916b3c3c21eabfe6 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ebfe8263f5274a9680b42317c7ec4f71.setIcon(icon_dcaeb0fb00fa423d916b3c3c21eabfe6);
+            
+    
+            var popup_2582f57e6dd741b98c42b539d52574da = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_be8c0c59b3de457b8dba798f6f7115c7 = $(`<div id="html_be8c0c59b3de457b8dba798f6f7115c7" style="width: 100.0%; height: 100.0%;">Luini Average price for two:10.0</div>`)[0];
+                popup_2582f57e6dd741b98c42b539d52574da.setContent(html_be8c0c59b3de457b8dba798f6f7115c7);
+            
+
+            marker_ebfe8263f5274a9680b42317c7ec4f71.bindPopup(popup_2582f57e6dd741b98c42b539d52574da)
+            ;
+
+            
+        
+    
+        var marker_7a88d8f9607b40d2a33a7128d7978f5a = L.marker(
+            [45.4657317427, 9.1911967099],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_d361ad8d576942c4b178e346921850aa = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7a88d8f9607b40d2a33a7128d7978f5a.setIcon(icon_d361ad8d576942c4b178e346921850aa);
+            
+    
+            var popup_b7d40290011b49b1a516e9d95b0ff3be = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8c4494350bef4e9d9b4f45c7f0ba3579 = $(`<div id="html_8c4494350bef4e9d9b4f45c7f0ba3579" style="width: 100.0%; height: 100.0%;">Cioccolati Italiani Average price for two:6.0</div>`)[0];
+                popup_b7d40290011b49b1a516e9d95b0ff3be.setContent(html_8c4494350bef4e9d9b4f45c7f0ba3579);
+            
+
+            marker_7a88d8f9607b40d2a33a7128d7978f5a.bindPopup(popup_b7d40290011b49b1a516e9d95b0ff3be)
+            ;
+
+            
+        
+    
+        var marker_a3887df0c17148d5915cdf9585117472 = L.marker(
+            [45.4570715353, 9.181609489],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_2a41d9cee87e4203ae8db775e373ad1f = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a3887df0c17148d5915cdf9585117472.setIcon(icon_2a41d9cee87e4203ae8db775e373ad1f);
+            
+    
+            var popup_8d590fc9bd8942ab84f4791d86d390b5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_63212de1b2394a2bbd812b46e2b6ee4a = $(`<div id="html_63212de1b2394a2bbd812b46e2b6ee4a" style="width: 100.0%; height: 100.0%;">La Dogana del Buongusto Average price for two:70.0</div>`)[0];
+                popup_8d590fc9bd8942ab84f4791d86d390b5.setContent(html_63212de1b2394a2bbd812b46e2b6ee4a);
+            
+
+            marker_a3887df0c17148d5915cdf9585117472.bindPopup(popup_8d590fc9bd8942ab84f4791d86d390b5)
+            ;
+
+            
+        
+    
+        var marker_c30c0ab5ab5f40218dc45f47a7da19ef = L.marker(
+            [45.4655567974, 9.1910116374],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_7bb42c19a1af43509a32dd1dc3baa938 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c30c0ab5ab5f40218dc45f47a7da19ef.setIcon(icon_7bb42c19a1af43509a32dd1dc3baa938);
+            
+    
+            var popup_d46c088b8f7841dc9f9e3a709a10193f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_69cbbdb209774003abe826d85219929c = $(`<div id="html_69cbbdb209774003abe826d85219929c" style="width: 100.0%; height: 100.0%;">Spontini Average price for two:15.0</div>`)[0];
+                popup_d46c088b8f7841dc9f9e3a709a10193f.setContent(html_69cbbdb209774003abe826d85219929c);
+            
+
+            marker_c30c0ab5ab5f40218dc45f47a7da19ef.bindPopup(popup_d46c088b8f7841dc9f9e3a709a10193f)
+            ;
+
+            
+        
+    
+        var marker_cabc8aeefc44413f8bab3db65a9fc68c = L.marker(
+            [45.46308, 9.18618],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_a77af67f0370425d8a9cb1cc32fbced5 = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cabc8aeefc44413f8bab3db65a9fc68c.setIcon(icon_a77af67f0370425d8a9cb1cc32fbced5);
+            
+    
+            var popup_508a338353b14eb5bc517c172406f6c1 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_191c7a3df44f4404baf7aca4b1e88a92 = $(`<div id="html_191c7a3df44f4404baf7aca4b1e88a92" style="width: 100.0%; height: 100.0%;">Hemeras Boutique House Aparthotel - Duomo Price per night for two: 269 Amount of restaurants nearby: 4</div>`)[0];
+                popup_508a338353b14eb5bc517c172406f6c1.setContent(html_191c7a3df44f4404baf7aca4b1e88a92);
+            
+
+            marker_cabc8aeefc44413f8bab3db65a9fc68c.bindPopup(popup_508a338353b14eb5bc517c172406f6c1)
+            ;
+
+            
+        
+    
+        var marker_27024a7f2e76426c835a995cfb92345a = L.marker(
+            [45.4647935218, 9.1965450346],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_1711eedc8bb64452af98f250914e7ef1 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_27024a7f2e76426c835a995cfb92345a.setIcon(icon_1711eedc8bb64452af98f250914e7ef1);
+            
+    
+            var popup_3d788dd7c65b458c940c894a244988d3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_713f1905327e4574b78939c3c701d49c = $(`<div id="html_713f1905327e4574b78939c3c701d49c" style="width: 100.0%; height: 100.0%;">Pizzeria Gino Sorbillo - Lievito Madre al Duomo Average price for two:40.0</div>`)[0];
+                popup_3d788dd7c65b458c940c894a244988d3.setContent(html_713f1905327e4574b78939c3c701d49c);
+            
+
+            marker_27024a7f2e76426c835a995cfb92345a.bindPopup(popup_3d788dd7c65b458c940c894a244988d3)
+            ;
+
+            
+        
+    
+        var marker_5eecba25eeec4133960b4045ebba83b9 = L.marker(
+            [45.4657075231, 9.1914293915],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_c2d4c4bac8f44c538c4f8fb38ee534a1 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5eecba25eeec4133960b4045ebba83b9.setIcon(icon_c2d4c4bac8f44c538c4f8fb38ee534a1);
+            
+    
+            var popup_1d9899aa157b4b2cb8c0700ef687c267 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_00ea07abf28045de86a3ae84a36e1cb3 = $(`<div id="html_00ea07abf28045de86a3ae84a36e1cb3" style="width: 100.0%; height: 100.0%;">Luini Average price for two:10.0</div>`)[0];
+                popup_1d9899aa157b4b2cb8c0700ef687c267.setContent(html_00ea07abf28045de86a3ae84a36e1cb3);
+            
+
+            marker_5eecba25eeec4133960b4045ebba83b9.bindPopup(popup_1d9899aa157b4b2cb8c0700ef687c267)
+            ;
+
+            
+        
+    
+        var marker_d645800c6b064e1aa19755ba32a40e81 = L.marker(
+            [45.4792277778, 9.2026777778],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_1ea01af3d268498a8e3fe2cbc79d9d08 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d645800c6b064e1aa19755ba32a40e81.setIcon(icon_1ea01af3d268498a8e3fe2cbc79d9d08);
+            
+    
+            var popup_3ccb6daf051946b5bfb4de56fc306ef3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b7f73f27b4064c96b06d368d2121a631 = $(`<div id="html_b7f73f27b4064c96b06d368d2121a631" style="width: 100.0%; height: 100.0%;">Pav\u00e8 Average price for two:30.0</div>`)[0];
+                popup_3ccb6daf051946b5bfb4de56fc306ef3.setContent(html_b7f73f27b4064c96b06d368d2121a631);
+            
+
+            marker_d645800c6b064e1aa19755ba32a40e81.bindPopup(popup_3ccb6daf051946b5bfb4de56fc306ef3)
+            ;
+
+            
+        
+    
+        var marker_e167a1defec245918a596b04ea59f292 = L.marker(
+            [45.4657317427, 9.1911967099],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_cc1d0b7f2aa74262b196c5f03a955f81 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e167a1defec245918a596b04ea59f292.setIcon(icon_cc1d0b7f2aa74262b196c5f03a955f81);
+            
+    
+            var popup_e11d045578734a9f9e2011ff087703b1 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b3972ee5299f4115b22e2f658dbdd7e1 = $(`<div id="html_b3972ee5299f4115b22e2f658dbdd7e1" style="width: 100.0%; height: 100.0%;">Cioccolati Italiani Average price for two:6.0</div>`)[0];
+                popup_e11d045578734a9f9e2011ff087703b1.setContent(html_b3972ee5299f4115b22e2f658dbdd7e1);
+            
+
+            marker_e167a1defec245918a596b04ea59f292.bindPopup(popup_e11d045578734a9f9e2011ff087703b1)
+            ;
+
+            
+        
+    
+        var marker_a705874d7d854a42a8086ac7946050dc = L.marker(
+            [45.4655567974, 9.1910116374],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_188024b809654c728446b6c55b734d81 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a705874d7d854a42a8086ac7946050dc.setIcon(icon_188024b809654c728446b6c55b734d81);
+            
+    
+            var popup_de7f5247fc9d42d8bc2bd509a5b9e562 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_124d4b317a3a48bab6e8ed0acf20c806 = $(`<div id="html_124d4b317a3a48bab6e8ed0acf20c806" style="width: 100.0%; height: 100.0%;">Spontini Average price for two:15.0</div>`)[0];
+                popup_de7f5247fc9d42d8bc2bd509a5b9e562.setContent(html_124d4b317a3a48bab6e8ed0acf20c806);
+            
+
+            marker_a705874d7d854a42a8086ac7946050dc.bindPopup(popup_de7f5247fc9d42d8bc2bd509a5b9e562)
+            ;
+
+            
+        
+    
+        var marker_f39a3a8e203b4994b202a6f30a6340fb = L.marker(
+            [45.4748728181, 9.1938748956],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_fc5bc818eeaa41129d764217cd7db25f = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f39a3a8e203b4994b202a6f30a6340fb.setIcon(icon_fc5bc818eeaa41129d764217cd7db25f);
+            
+    
+            var popup_ef2d905d6bdb4a85b763183a81e52d0f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c3eb1514642746a4bc654961a8620269 = $(`<div id="html_c3eb1514642746a4bc654961a8620269" style="width: 100.0%; height: 100.0%;">22 Milano Average price for two:50.0</div>`)[0];
+                popup_ef2d905d6bdb4a85b763183a81e52d0f.setContent(html_c3eb1514642746a4bc654961a8620269);
+            
+
+            marker_f39a3a8e203b4994b202a6f30a6340fb.bindPopup(popup_ef2d905d6bdb4a85b763183a81e52d0f)
+            ;
+
+            
+        
+    
+        var marker_32af0349f6d14c3d90f8e54dc5880a36 = L.marker(
+            [45.4763389013, 9.195134528],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_66c1647895a74de9a6083e10cc455ba8 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_32af0349f6d14c3d90f8e54dc5880a36.setIcon(icon_66c1647895a74de9a6083e10cc455ba8);
+            
+    
+            var popup_1a87af647b6e4984996def47c7bbbeb4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_96ca1ee460d14d77b8b378b2b6ca5b24 = $(`<div id="html_96ca1ee460d14d77b8b378b2b6ca5b24" style="width: 100.0%; height: 100.0%;">Biancolatte Average price for two:30.0</div>`)[0];
+                popup_1a87af647b6e4984996def47c7bbbeb4.setContent(html_96ca1ee460d14d77b8b378b2b6ca5b24);
+            
+
+            marker_32af0349f6d14c3d90f8e54dc5880a36.bindPopup(popup_1a87af647b6e4984996def47c7bbbeb4)
+            ;
+
+            
+        
+    
+        var marker_22b45ec351414e2e9379fbad89685463 = L.marker(
+            [45.47397, 9.19605],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_98d6609ae5e742f0afa186353ab348fe = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_22b45ec351414e2e9379fbad89685463.setIcon(icon_98d6609ae5e742f0afa186353ab348fe);
+            
+    
+            var popup_37eb91ca0817420ca9022548ce5bacf3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4cd7917d06724cb7bfd966aaff76a1fc = $(`<div id="html_4cd7917d06724cb7bfd966aaff76a1fc" style="width: 100.0%; height: 100.0%;">Hotel Manin Price per night for two: 170 Amount of restaurants nearby: 7</div>`)[0];
+                popup_37eb91ca0817420ca9022548ce5bacf3.setContent(html_4cd7917d06724cb7bfd966aaff76a1fc);
+            
+
+            marker_22b45ec351414e2e9379fbad89685463.bindPopup(popup_37eb91ca0817420ca9022548ce5bacf3)
+            ;
+
+            
+        
+    
+        var marker_b9ea5b36253e4a75a518e785496311cb = L.marker(
+            [45.4747411603, 9.1833318025],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_037f106d65274b5496b04061bf9f72c3 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b9ea5b36253e4a75a518e785496311cb.setIcon(icon_037f106d65274b5496b04061bf9f72c3);
+            
+    
+            var popup_93179b1c5d8846ef874d435f9ca82958 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4d0f2b6d2b84415eae40969cf6f36e83 = $(`<div id="html_4d0f2b6d2b84415eae40969cf6f36e83" style="width: 100.0%; height: 100.0%;">Temakinho Average price for two:70.0</div>`)[0];
+                popup_93179b1c5d8846ef874d435f9ca82958.setContent(html_4d0f2b6d2b84415eae40969cf6f36e83);
+            
+
+            marker_b9ea5b36253e4a75a518e785496311cb.bindPopup(popup_93179b1c5d8846ef874d435f9ca82958)
+            ;
+
+            
+        
+    
+        var marker_deb2fbb278f3429f9a8be747ca5cb6c1 = L.marker(
+            [45.4657075231, 9.1914293915],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_4134da6fcc4d4fcfaf97f9513b01a4ad = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_deb2fbb278f3429f9a8be747ca5cb6c1.setIcon(icon_4134da6fcc4d4fcfaf97f9513b01a4ad);
+            
+    
+            var popup_444531acf48b4052ad1e38ce3e5948c9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_420bca1450c1467586aac7597269b2a2 = $(`<div id="html_420bca1450c1467586aac7597269b2a2" style="width: 100.0%; height: 100.0%;">Luini Average price for two:10.0</div>`)[0];
+                popup_444531acf48b4052ad1e38ce3e5948c9.setContent(html_420bca1450c1467586aac7597269b2a2);
+            
+
+            marker_deb2fbb278f3429f9a8be747ca5cb6c1.bindPopup(popup_444531acf48b4052ad1e38ce3e5948c9)
+            ;
+
+            
+        
+    
+        var marker_7a89aa62dc024a74a9af86d721c6571e = L.marker(
+            [45.4657317427, 9.1911967099],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_2c537ff41b0242b4b46db6d9c01a41b2 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7a89aa62dc024a74a9af86d721c6571e.setIcon(icon_2c537ff41b0242b4b46db6d9c01a41b2);
+            
+    
+            var popup_6576f2c9b6b548eda10cc7ed52a8017a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2ffc90b942e2422589ccda45a7434feb = $(`<div id="html_2ffc90b942e2422589ccda45a7434feb" style="width: 100.0%; height: 100.0%;">Cioccolati Italiani Average price for two:6.0</div>`)[0];
+                popup_6576f2c9b6b548eda10cc7ed52a8017a.setContent(html_2ffc90b942e2422589ccda45a7434feb);
+            
+
+            marker_7a89aa62dc024a74a9af86d721c6571e.bindPopup(popup_6576f2c9b6b548eda10cc7ed52a8017a)
+            ;
+
+            
+        
+    
+        var marker_82e1bc029371484db60e330148aeafe6 = L.marker(
+            [45.4655567974, 9.1910116374],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_66363f48581b4591910432eadb739337 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_82e1bc029371484db60e330148aeafe6.setIcon(icon_66363f48581b4591910432eadb739337);
+            
+    
+            var popup_c970d4b0dd1c49de9884a9c510b59f9e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_202688175b2a4cc3be832b38954cd3f0 = $(`<div id="html_202688175b2a4cc3be832b38954cd3f0" style="width: 100.0%; height: 100.0%;">Spontini Average price for two:15.0</div>`)[0];
+                popup_c970d4b0dd1c49de9884a9c510b59f9e.setContent(html_202688175b2a4cc3be832b38954cd3f0);
+            
+
+            marker_82e1bc029371484db60e330148aeafe6.bindPopup(popup_c970d4b0dd1c49de9884a9c510b59f9e)
+            ;
+
+            
+        
+    
+        var marker_28df8ab587234414a61723ea84d025b8 = L.marker(
+            [45.46672, 9.18286],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_56823319d2bf4f708d6067b32e54538b = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_28df8ab587234414a61723ea84d025b8.setIcon(icon_56823319d2bf4f708d6067b32e54538b);
+            
+    
+            var popup_8e2b1d92b6554f2295957c5464ea0dc5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_bba42c2d020a4a53be8f7d12abae53ef = $(`<div id="html_bba42c2d020a4a53be8f7d12abae53ef" style="width: 100.0%; height: 100.0%;">Camperio House Suites & Apartments Price per night for two: 326 Amount of restaurants nearby: 4</div>`)[0];
+                popup_8e2b1d92b6554f2295957c5464ea0dc5.setContent(html_bba42c2d020a4a53be8f7d12abae53ef);
+            
+
+            marker_28df8ab587234414a61723ea84d025b8.bindPopup(popup_8e2b1d92b6554f2295957c5464ea0dc5)
+            ;
+
+            
+        
+    
+        var marker_acdcda5e06f943d79a77ab29ba0625d0 = L.marker(
+            [45.4747411603, 9.1833318025],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_e5a8849cdd1f4f07ac989f392e32abf8 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_acdcda5e06f943d79a77ab29ba0625d0.setIcon(icon_e5a8849cdd1f4f07ac989f392e32abf8);
+            
+    
+            var popup_ed65eaf49b6946d3bbd9b2e096b65d25 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_60cf2ead5b17424d9f88d5c5ee7335b3 = $(`<div id="html_60cf2ead5b17424d9f88d5c5ee7335b3" style="width: 100.0%; height: 100.0%;">Temakinho Average price for two:70.0</div>`)[0];
+                popup_ed65eaf49b6946d3bbd9b2e096b65d25.setContent(html_60cf2ead5b17424d9f88d5c5ee7335b3);
+            
+
+            marker_acdcda5e06f943d79a77ab29ba0625d0.bindPopup(popup_ed65eaf49b6946d3bbd9b2e096b65d25)
+            ;
+
+            
+        
+    
+        var marker_48c249e634a948ddaa1eaa0ac8e09c03 = L.marker(
+            [45.4647935218, 9.1965450346],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_d63f879e8e8b42799a591da3b9565369 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_48c249e634a948ddaa1eaa0ac8e09c03.setIcon(icon_d63f879e8e8b42799a591da3b9565369);
+            
+    
+            var popup_074eca79fac04d93921d7d5a149d3a9a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3156ac48191947418baae0bb0296afb7 = $(`<div id="html_3156ac48191947418baae0bb0296afb7" style="width: 100.0%; height: 100.0%;">Pizzeria Gino Sorbillo - Lievito Madre al Duomo Average price for two:40.0</div>`)[0];
+                popup_074eca79fac04d93921d7d5a149d3a9a.setContent(html_3156ac48191947418baae0bb0296afb7);
+            
+
+            marker_48c249e634a948ddaa1eaa0ac8e09c03.bindPopup(popup_074eca79fac04d93921d7d5a149d3a9a)
+            ;
+
+            
+        
+    
+        var marker_873376b2b65c427aa7b6bcd047cfac50 = L.marker(
+            [45.4657075231, 9.1914293915],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_2fe852a43d4d4b9098c5784a07216be3 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_873376b2b65c427aa7b6bcd047cfac50.setIcon(icon_2fe852a43d4d4b9098c5784a07216be3);
+            
+    
+            var popup_baaab3d8f07f48aabc22667468949f2d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_587acc1f66a846789ed31c8197cc46d9 = $(`<div id="html_587acc1f66a846789ed31c8197cc46d9" style="width: 100.0%; height: 100.0%;">Luini Average price for two:10.0</div>`)[0];
+                popup_baaab3d8f07f48aabc22667468949f2d.setContent(html_587acc1f66a846789ed31c8197cc46d9);
+            
+
+            marker_873376b2b65c427aa7b6bcd047cfac50.bindPopup(popup_baaab3d8f07f48aabc22667468949f2d)
+            ;
+
+            
+        
+    
+        var marker_84d4d641d84f4d6380b57e82e542446d = L.marker(
+            [45.4657317427, 9.1911967099],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_0aa86a5fd74549ed8ae3991b1ae2e46f = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_84d4d641d84f4d6380b57e82e542446d.setIcon(icon_0aa86a5fd74549ed8ae3991b1ae2e46f);
+            
+    
+            var popup_86b66af7dde54d42b220dba05321964d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_392e12642c124505b3a4ff64b8b6fae8 = $(`<div id="html_392e12642c124505b3a4ff64b8b6fae8" style="width: 100.0%; height: 100.0%;">Cioccolati Italiani Average price for two:6.0</div>`)[0];
+                popup_86b66af7dde54d42b220dba05321964d.setContent(html_392e12642c124505b3a4ff64b8b6fae8);
+            
+
+            marker_84d4d641d84f4d6380b57e82e542446d.bindPopup(popup_86b66af7dde54d42b220dba05321964d)
+            ;
+
+            
+        
+    
+        var marker_42778f49838144288426227984ef34af = L.marker(
+            [45.4655567974, 9.1910116374],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_54923d23a2034b0b85d19d83dedd672f = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_42778f49838144288426227984ef34af.setIcon(icon_54923d23a2034b0b85d19d83dedd672f);
+            
+    
+            var popup_959f419a3715429cb92a4c2692bb1b84 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a93820c0b55444dc925a478ee5bb8672 = $(`<div id="html_a93820c0b55444dc925a478ee5bb8672" style="width: 100.0%; height: 100.0%;">Spontini Average price for two:15.0</div>`)[0];
+                popup_959f419a3715429cb92a4c2692bb1b84.setContent(html_a93820c0b55444dc925a478ee5bb8672);
+            
+
+            marker_42778f49838144288426227984ef34af.bindPopup(popup_959f419a3715429cb92a4c2692bb1b84)
+            ;
+
+            
+        
+    
+        var marker_3aa0600b43a24fd5830d00562592b8b5 = L.marker(
+            [45.4614122698, 9.1919343174],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_b85e401cfe534887873bf925cde6b292 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3aa0600b43a24fd5830d00562592b8b5.setIcon(icon_b85e401cfe534887873bf925cde6b292);
+            
+    
+            var popup_e85fe9e08f4c4ad0881d00347c5b170c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_18cafee6de7c4444904006be37a7acef = $(`<div id="html_18cafee6de7c4444904006be37a7acef" style="width: 100.0%; height: 100.0%;">California Bakery Average price for two:30.0</div>`)[0];
+                popup_e85fe9e08f4c4ad0881d00347c5b170c.setContent(html_18cafee6de7c4444904006be37a7acef);
+            
+
+            marker_3aa0600b43a24fd5830d00562592b8b5.bindPopup(popup_e85fe9e08f4c4ad0881d00347c5b170c)
+            ;
+
+            
+        
+    
+        var marker_4e6b4c44c3044837a64b3b2c7e350eaf = L.marker(
+            [45.4748728181, 9.1938748956],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_134ebd1820df4acf9325af2f949e1590 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4e6b4c44c3044837a64b3b2c7e350eaf.setIcon(icon_134ebd1820df4acf9325af2f949e1590);
+            
+    
+            var popup_ba8ea5a0b4bc4c3d81bb0e69a59465c2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_701fd0d5ab8f4314b0f84fbc2f7aee00 = $(`<div id="html_701fd0d5ab8f4314b0f84fbc2f7aee00" style="width: 100.0%; height: 100.0%;">22 Milano Average price for two:50.0</div>`)[0];
+                popup_ba8ea5a0b4bc4c3d81bb0e69a59465c2.setContent(html_701fd0d5ab8f4314b0f84fbc2f7aee00);
+            
+
+            marker_4e6b4c44c3044837a64b3b2c7e350eaf.bindPopup(popup_ba8ea5a0b4bc4c3d81bb0e69a59465c2)
+            ;
+
+            
+        
+    
+        var marker_367e60a9c14445ebbe12e3bc1a91062f = L.marker(
+            [45.4689, 9.19009],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_d7754e9a14304685ae65b75c212a227e = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_367e60a9c14445ebbe12e3bc1a91062f.setIcon(icon_d7754e9a14304685ae65b75c212a227e);
+            
+    
+            var popup_1dcda508169a4349bce89b96b78e6530 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8df40d92703b44ba85d50054eb55eea6 = $(`<div id="html_8df40d92703b44ba85d50054eb55eea6" style="width: 100.0%; height: 100.0%;">Milan Royal Suites - Centro Price per night for two: 222 Amount of restaurants nearby: 7</div>`)[0];
+                popup_1dcda508169a4349bce89b96b78e6530.setContent(html_8df40d92703b44ba85d50054eb55eea6);
+            
+
+            marker_367e60a9c14445ebbe12e3bc1a91062f.bindPopup(popup_1dcda508169a4349bce89b96b78e6530)
+            ;
+
+            
+        
+    
+        var marker_dfa9f55c62064c31912885da36db47d9 = L.marker(
+            [45.458349, 9.207584],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_54c34027175c41fd813f30c48db1cb59 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_dfa9f55c62064c31912885da36db47d9.setIcon(icon_54c34027175c41fd813f30c48db1cb59);
+            
+    
+            var popup_1222fbc8025045ff97b7fa98da6fc146 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8709719f321143efa08c5fa0db0b6fe3 = $(`<div id="html_8709719f321143efa08c5fa0db0b6fe3" style="width: 100.0%; height: 100.0%;">Briscola Average price for two:30.0</div>`)[0];
+                popup_1222fbc8025045ff97b7fa98da6fc146.setContent(html_8709719f321143efa08c5fa0db0b6fe3);
+            
+
+            marker_dfa9f55c62064c31912885da36db47d9.bindPopup(popup_1222fbc8025045ff97b7fa98da6fc146)
+            ;
+
+            
+        
+    
+        var marker_cc91815401b346aa9a756e19f9ea406f = L.marker(
+            [45.46418, 9.20332],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_25149917e3504f5db6a07f800b9f470c = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cc91815401b346aa9a756e19f9ea406f.setIcon(icon_25149917e3504f5db6a07f800b9f470c);
+            
+    
+            var popup_ce4c1ea1fe2b481e9b4a82931005866e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d5df442fcfda40c8afc69d4e0612ba1e = $(`<div id="html_d5df442fcfda40c8afc69d4e0612ba1e" style="width: 100.0%; height: 100.0%;">Babila Hostel Price per night for two: 156 Amount of restaurants nearby: 1</div>`)[0];
+                popup_ce4c1ea1fe2b481e9b4a82931005866e.setContent(html_d5df442fcfda40c8afc69d4e0612ba1e);
+            
+
+            marker_cc91815401b346aa9a756e19f9ea406f.bindPopup(popup_ce4c1ea1fe2b481e9b4a82931005866e)
+            ;
+
+            
+        
+    
+        var marker_01501f0b05a34124b930610fa0c428ec = L.marker(
+            [45.4647935218, 9.1965450346],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_96ca23f89c1a430fb03b6480f8340805 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_01501f0b05a34124b930610fa0c428ec.setIcon(icon_96ca23f89c1a430fb03b6480f8340805);
+            
+    
+            var popup_9247c57c98d441b88c7e7047b6dc304a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_63d2b9a7d6524babbc465050e8aede38 = $(`<div id="html_63d2b9a7d6524babbc465050e8aede38" style="width: 100.0%; height: 100.0%;">Pizzeria Gino Sorbillo - Lievito Madre al Duomo Average price for two:40.0</div>`)[0];
+                popup_9247c57c98d441b88c7e7047b6dc304a.setContent(html_63d2b9a7d6524babbc465050e8aede38);
+            
+
+            marker_01501f0b05a34124b930610fa0c428ec.bindPopup(popup_9247c57c98d441b88c7e7047b6dc304a)
+            ;
+
+            
+        
+    
+        var marker_cbf4e29ba4cd457fadc70b834caff20c = L.marker(
+            [45.4657075231, 9.1914293915],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_cf231e7d5e824dbf89bba8d6cc160c46 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cbf4e29ba4cd457fadc70b834caff20c.setIcon(icon_cf231e7d5e824dbf89bba8d6cc160c46);
+            
+    
+            var popup_3d64f6d86d3b4b898c9d23a5e1fc14a3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a1b0779f3f5d42e8ba8452bf570efffc = $(`<div id="html_a1b0779f3f5d42e8ba8452bf570efffc" style="width: 100.0%; height: 100.0%;">Luini Average price for two:10.0</div>`)[0];
+                popup_3d64f6d86d3b4b898c9d23a5e1fc14a3.setContent(html_a1b0779f3f5d42e8ba8452bf570efffc);
+            
+
+            marker_cbf4e29ba4cd457fadc70b834caff20c.bindPopup(popup_3d64f6d86d3b4b898c9d23a5e1fc14a3)
+            ;
+
+            
+        
+    
+        var marker_52b89f36f3f64dfcaf7991c39c803dcb = L.marker(
+            [45.4657317427, 9.1911967099],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_b23beebdc5a24443acd65d4df228217d = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_52b89f36f3f64dfcaf7991c39c803dcb.setIcon(icon_b23beebdc5a24443acd65d4df228217d);
+            
+    
+            var popup_07885baf5ac74dbab70da1c4aa09f52d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1159f424ade44d2aa85d437dd424a3f7 = $(`<div id="html_1159f424ade44d2aa85d437dd424a3f7" style="width: 100.0%; height: 100.0%;">Cioccolati Italiani Average price for two:6.0</div>`)[0];
+                popup_07885baf5ac74dbab70da1c4aa09f52d.setContent(html_1159f424ade44d2aa85d437dd424a3f7);
+            
+
+            marker_52b89f36f3f64dfcaf7991c39c803dcb.bindPopup(popup_07885baf5ac74dbab70da1c4aa09f52d)
+            ;
+
+            
+        
+    
+        var marker_e852f1cf9e0f4677b3bad236813fbd4b = L.marker(
+            [45.4655567974, 9.1910116374],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_fa03a7460e094feebccd062a91f873d4 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e852f1cf9e0f4677b3bad236813fbd4b.setIcon(icon_fa03a7460e094feebccd062a91f873d4);
+            
+    
+            var popup_6f9004f7fefb44af9f2860efd0685b48 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_dd015d7b4d064b48883bbfad80758622 = $(`<div id="html_dd015d7b4d064b48883bbfad80758622" style="width: 100.0%; height: 100.0%;">Spontini Average price for two:15.0</div>`)[0];
+                popup_6f9004f7fefb44af9f2860efd0685b48.setContent(html_dd015d7b4d064b48883bbfad80758622);
+            
+
+            marker_e852f1cf9e0f4677b3bad236813fbd4b.bindPopup(popup_6f9004f7fefb44af9f2860efd0685b48)
+            ;
+
+            
+        
+    
+        var marker_43a22e7ca33544bab93c41412a0a69f5 = L.marker(
+            [45.4614122698, 9.1919343174],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_fb81aa48d21a46239d40d33ff0028a4c = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_43a22e7ca33544bab93c41412a0a69f5.setIcon(icon_fb81aa48d21a46239d40d33ff0028a4c);
+            
+    
+            var popup_5c9cb7e7affe4b70a0797c24a28179f2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c0f2bf87e21b487498ac18bb9da64c23 = $(`<div id="html_c0f2bf87e21b487498ac18bb9da64c23" style="width: 100.0%; height: 100.0%;">California Bakery Average price for two:30.0</div>`)[0];
+                popup_5c9cb7e7affe4b70a0797c24a28179f2.setContent(html_c0f2bf87e21b487498ac18bb9da64c23);
+            
+
+            marker_43a22e7ca33544bab93c41412a0a69f5.bindPopup(popup_5c9cb7e7affe4b70a0797c24a28179f2)
+            ;
+
+            
+        
+    
+        var marker_c5503caed9544bd7bafcc8500bf6c0b6 = L.marker(
+            [45.4748728181, 9.1938748956],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_51669740bea54a5f8b6385e44c9252d8 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c5503caed9544bd7bafcc8500bf6c0b6.setIcon(icon_51669740bea54a5f8b6385e44c9252d8);
+            
+    
+            var popup_a87158784466467aaf62491eac3cade6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f8e518fccd2343bea02c7b37d9688c00 = $(`<div id="html_f8e518fccd2343bea02c7b37d9688c00" style="width: 100.0%; height: 100.0%;">22 Milano Average price for two:50.0</div>`)[0];
+                popup_a87158784466467aaf62491eac3cade6.setContent(html_f8e518fccd2343bea02c7b37d9688c00);
+            
+
+            marker_c5503caed9544bd7bafcc8500bf6c0b6.bindPopup(popup_a87158784466467aaf62491eac3cade6)
+            ;
+
+            
+        
+    
+        var marker_25867c6656b348199aef36b84db63d56 = L.marker(
+            [45.46551, 9.19136],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_cbc01841216949aea43b620c5c50cdc9 = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_25867c6656b348199aef36b84db63d56.setIcon(icon_cbc01841216949aea43b620c5c50cdc9);
+            
+    
+            var popup_fe7c2fe8afc4469380ef9920ae46a0d7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b513ea04cd8f405a9fa603de79164d3c = $(`<div id="html_b513ea04cd8f405a9fa603de79164d3c" style="width: 100.0%; height: 100.0%;">Sina The Gray Price per night for two: 1178 Amount of restaurants nearby: 6</div>`)[0];
+                popup_fe7c2fe8afc4469380ef9920ae46a0d7.setContent(html_b513ea04cd8f405a9fa603de79164d3c);
+            
+
+            marker_25867c6656b348199aef36b84db63d56.bindPopup(popup_fe7c2fe8afc4469380ef9920ae46a0d7)
+            ;
+
+            
+        
+    
+        var marker_17450283bc01438a92f3b26ee6fb4ff4 = L.marker(
+            [45.451145, 9.211484],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_bffb2454a2f84d7d9dccdaebb647ba9d = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_17450283bc01438a92f3b26ee6fb4ff4.setIcon(icon_bffb2454a2f84d7d9dccdaebb647ba9d);
+            
+    
+            var popup_0278d9d57af04d78b65a4daf618095d7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_cc1c3dcd6b5640f7bb755724233748c0 = $(`<div id="html_cc1c3dcd6b5640f7bb755724233748c0" style="width: 100.0%; height: 100.0%;">Un Posto a Milano Average price for two:70.0</div>`)[0];
+                popup_0278d9d57af04d78b65a4daf618095d7.setContent(html_cc1c3dcd6b5640f7bb755724233748c0);
+            
+
+            marker_17450283bc01438a92f3b26ee6fb4ff4.bindPopup(popup_0278d9d57af04d78b65a4daf618095d7)
+            ;
+
+            
+        
+    
+        var marker_61d7be0ddac24cc0a98ac99bfd231324 = L.marker(
+            [45.458349, 9.207584],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_6bf656e9d02247c6baf2d89cc62b7757 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_61d7be0ddac24cc0a98ac99bfd231324.setIcon(icon_6bf656e9d02247c6baf2d89cc62b7757);
+            
+    
+            var popup_26b952d70ed245cc9edb0b37e9bb3057 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_26aee9e0abeb4c0eb2033699806b0402 = $(`<div id="html_26aee9e0abeb4c0eb2033699806b0402" style="width: 100.0%; height: 100.0%;">Briscola Average price for two:30.0</div>`)[0];
+                popup_26b952d70ed245cc9edb0b37e9bb3057.setContent(html_26aee9e0abeb4c0eb2033699806b0402);
+            
+
+            marker_61d7be0ddac24cc0a98ac99bfd231324.bindPopup(popup_26b952d70ed245cc9edb0b37e9bb3057)
+            ;
+
+            
+        
+    
+        var marker_0375b133314b4455af1f96a9e8f46085 = L.marker(
+            [45.454864, 9.199155],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_7fa20fe1801941398f8b317a7835d6c4 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0375b133314b4455af1f96a9e8f46085.setIcon(icon_7fa20fe1801941398f8b317a7835d6c4);
+            
+    
+            var popup_61a1df80d5074db0b3321ca88c448113 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4a80bac1d5c342448d3e39ac80c366ec = $(`<div id="html_4a80bac1d5c342448d3e39ac80c366ec" style="width: 100.0%; height: 100.0%;">Lacerba Cocktail Bar Average price for two:40.0</div>`)[0];
+                popup_61a1df80d5074db0b3321ca88c448113.setContent(html_4a80bac1d5c342448d3e39ac80c366ec);
+            
+
+            marker_0375b133314b4455af1f96a9e8f46085.bindPopup(popup_61a1df80d5074db0b3321ca88c448113)
+            ;
+
+            
+        
+    
+        var marker_c0056354346b4928a4e44eed308f098b = L.marker(
+            [45.458237, 9.213707],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_2c0ade9e4aec4741ae76a2ab40cb569a = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c0056354346b4928a4e44eed308f098b.setIcon(icon_2c0ade9e4aec4741ae76a2ab40cb569a);
+            
+    
+            var popup_9c5a156c0b704b059d615494ad724b9c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9ff2a67eb8dd45f2b7bb779b40c2eb9b = $(`<div id="html_9ff2a67eb8dd45f2b7bb779b40c2eb9b" style="width: 100.0%; height: 100.0%;">Isa e Vane Average price for two:40.0</div>`)[0];
+                popup_9c5a156c0b704b059d615494ad724b9c.setContent(html_9ff2a67eb8dd45f2b7bb779b40c2eb9b);
+            
+
+            marker_c0056354346b4928a4e44eed308f098b.bindPopup(popup_9c5a156c0b704b059d615494ad724b9c)
+            ;
+
+            
+        
+    
+        var marker_898fa6dd878a43c391137f09d713ae5d = L.marker(
+            [45.451942, 9.204662],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_7f5c7ff3c0fe4722b7592879872eaa2c = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_898fa6dd878a43c391137f09d713ae5d.setIcon(icon_7f5c7ff3c0fe4722b7592879872eaa2c);
+            
+    
+            var popup_28bc37a24abd4361a5ec88a394d0f468 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_fd71506580814991866e62b21e8aed01 = $(`<div id="html_fd71506580814991866e62b21e8aed01" style="width: 100.0%; height: 100.0%;">Giulio Pane e Ojo Average price for two:50.0</div>`)[0];
+                popup_28bc37a24abd4361a5ec88a394d0f468.setContent(html_fd71506580814991866e62b21e8aed01);
+            
+
+            marker_898fa6dd878a43c391137f09d713ae5d.bindPopup(popup_28bc37a24abd4361a5ec88a394d0f468)
+            ;
+
+            
+        
+    
+        var marker_c8c9ff7c1ac741d8bf4b653bd44cf519 = L.marker(
+            [45.45954, 9.20683],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_3cdca1836d8245d4a7737b25f8d1675d = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c8c9ff7c1ac741d8bf4b653bd44cf519.setIcon(icon_3cdca1836d8245d4a7737b25f8d1675d);
+            
+    
+            var popup_69ae82a17c0e4447b5c9b3555dd51d9c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c2b3534db6b04161b0df391ac19a8757 = $(`<div id="html_c2b3534db6b04161b0df391ac19a8757" style="width: 100.0%; height: 100.0%;">Apartment Near Duomo Price per night for two: 208 Amount of restaurants nearby: 5</div>`)[0];
+                popup_69ae82a17c0e4447b5c9b3555dd51d9c.setContent(html_c2b3534db6b04161b0df391ac19a8757);
+            
+
+            marker_c8c9ff7c1ac741d8bf4b653bd44cf519.bindPopup(popup_69ae82a17c0e4447b5c9b3555dd51d9c)
+            ;
+
+            
+        
+    
+        var marker_b6bc41eedc42406e92b43de03473bef8 = L.marker(
+            [45.455912, 9.196162],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_55e3dec17ec942c0bd59e474f7b7f2ab = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b6bc41eedc42406e92b43de03473bef8.setIcon(icon_55e3dec17ec942c0bd59e474f7b7f2ab);
+            
+    
+            var popup_7f2b6e4be25f49ebb04f352eefebca6f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_87175e52a0f44ce8be3cba0af6bc9bb7 = $(`<div id="html_87175e52a0f44ce8be3cba0af6bc9bb7" style="width: 100.0%; height: 100.0%;">Pizza Am Average price for two:30.0</div>`)[0];
+                popup_7f2b6e4be25f49ebb04f352eefebca6f.setContent(html_87175e52a0f44ce8be3cba0af6bc9bb7);
+            
+
+            marker_b6bc41eedc42406e92b43de03473bef8.bindPopup(popup_7f2b6e4be25f49ebb04f352eefebca6f)
+            ;
+
+            
+        
+    
+        var marker_4935ed720ba841cfabfa305b796b3b8b = L.marker(
+            [45.45247, 9.20393],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_67655592a8d6475eb628b5f4f1d9dde9 = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4935ed720ba841cfabfa305b796b3b8b.setIcon(icon_67655592a8d6475eb628b5f4f1d9dde9);
+            
+    
+            var popup_26863660b9b84cf3b104bb8ca811e1da = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8e89d7d534d249688928f2b5d9efec0f = $(`<div id="html_8e89d7d534d249688928f2b5d9efec0f" style="width: 100.0%; height: 100.0%;">Mary’s Attic Price per night for two: 128 Amount of restaurants nearby: 1</div>`)[0];
+                popup_26863660b9b84cf3b104bb8ca811e1da.setContent(html_8e89d7d534d249688928f2b5d9efec0f);
+            
+
+            marker_4935ed720ba841cfabfa305b796b3b8b.bindPopup(popup_26863660b9b84cf3b104bb8ca811e1da)
+            ;
+
+            
+        
+    
+        var marker_ebf1804c099d4a49829fa97bb6b1f7a3 = L.marker(
+            [45.4647935218, 9.1965450346],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_a89af23dea594e4aa66ce0c26b805ab0 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ebf1804c099d4a49829fa97bb6b1f7a3.setIcon(icon_a89af23dea594e4aa66ce0c26b805ab0);
+            
+    
+            var popup_0eb71cd40a924a3c82cd1941430acaa6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_95759b96745440a6b4899d763ceb0ac3 = $(`<div id="html_95759b96745440a6b4899d763ceb0ac3" style="width: 100.0%; height: 100.0%;">Pizzeria Gino Sorbillo - Lievito Madre al Duomo Average price for two:40.0</div>`)[0];
+                popup_0eb71cd40a924a3c82cd1941430acaa6.setContent(html_95759b96745440a6b4899d763ceb0ac3);
+            
+
+            marker_ebf1804c099d4a49829fa97bb6b1f7a3.bindPopup(popup_0eb71cd40a924a3c82cd1941430acaa6)
+            ;
+
+            
+        
+    
+        var marker_934d0eb2e9ba429a8fecfe3210ae1aeb = L.marker(
+            [45.4657075231, 9.1914293915],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_43c24c67ae4d4e188ff5699c5cbfa293 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_934d0eb2e9ba429a8fecfe3210ae1aeb.setIcon(icon_43c24c67ae4d4e188ff5699c5cbfa293);
+            
+    
+            var popup_af6233fbb37e42bb8ddf0600f42b0686 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_87f1c1bfb856487d8dae5997e6b2d727 = $(`<div id="html_87f1c1bfb856487d8dae5997e6b2d727" style="width: 100.0%; height: 100.0%;">Luini Average price for two:10.0</div>`)[0];
+                popup_af6233fbb37e42bb8ddf0600f42b0686.setContent(html_87f1c1bfb856487d8dae5997e6b2d727);
+            
+
+            marker_934d0eb2e9ba429a8fecfe3210ae1aeb.bindPopup(popup_af6233fbb37e42bb8ddf0600f42b0686)
+            ;
+
+            
+        
+    
+        var marker_508a33c6143b43e5a572663178e79823 = L.marker(
+            [45.4657317427, 9.1911967099],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_4296520bab83434498cf81d232b0c8c9 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_508a33c6143b43e5a572663178e79823.setIcon(icon_4296520bab83434498cf81d232b0c8c9);
+            
+    
+            var popup_a4fb9e3093b0405c97d8be003478946f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e526e48a14e64ef7a5f848d9b0fe4e57 = $(`<div id="html_e526e48a14e64ef7a5f848d9b0fe4e57" style="width: 100.0%; height: 100.0%;">Cioccolati Italiani Average price for two:6.0</div>`)[0];
+                popup_a4fb9e3093b0405c97d8be003478946f.setContent(html_e526e48a14e64ef7a5f848d9b0fe4e57);
+            
+
+            marker_508a33c6143b43e5a572663178e79823.bindPopup(popup_a4fb9e3093b0405c97d8be003478946f)
+            ;
+
+            
+        
+    
+        var marker_afd8223cced6485287662f3c9f310f42 = L.marker(
+            [45.4570715353, 9.181609489],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_9962c5fe313c4fb48fecf40197d65c51 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_afd8223cced6485287662f3c9f310f42.setIcon(icon_9962c5fe313c4fb48fecf40197d65c51);
+            
+    
+            var popup_bfab2e4fd4724c5297b9d91c48d30760 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4ca144684128477ea3e082819a654661 = $(`<div id="html_4ca144684128477ea3e082819a654661" style="width: 100.0%; height: 100.0%;">La Dogana del Buongusto Average price for two:70.0</div>`)[0];
+                popup_bfab2e4fd4724c5297b9d91c48d30760.setContent(html_4ca144684128477ea3e082819a654661);
+            
+
+            marker_afd8223cced6485287662f3c9f310f42.bindPopup(popup_bfab2e4fd4724c5297b9d91c48d30760)
+            ;
+
+            
+        
+    
+        var marker_12f2fd85f0784625aa2843ddbc1d855c = L.marker(
+            [45.4655567974, 9.1910116374],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_8ee185cf5ab24efb823c1f022ebec932 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_12f2fd85f0784625aa2843ddbc1d855c.setIcon(icon_8ee185cf5ab24efb823c1f022ebec932);
+            
+    
+            var popup_f48e2bfc13564efa94a8a0be77efd291 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_19014c207cb849b884df4a1696c630ce = $(`<div id="html_19014c207cb849b884df4a1696c630ce" style="width: 100.0%; height: 100.0%;">Spontini Average price for two:15.0</div>`)[0];
+                popup_f48e2bfc13564efa94a8a0be77efd291.setContent(html_19014c207cb849b884df4a1696c630ce);
+            
+
+            marker_12f2fd85f0784625aa2843ddbc1d855c.bindPopup(popup_f48e2bfc13564efa94a8a0be77efd291)
+            ;
+
+            
+        
+    
+        var marker_6cbdafa33cbb48fc876eb83bcf4007f3 = L.marker(
+            [45.4634, 9.18844],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_7e6cbf7ecac24b6bbcdfc4333e346321 = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6cbdafa33cbb48fc876eb83bcf4007f3.setIcon(icon_7e6cbf7ecac24b6bbcdfc4333e346321);
+            
+    
+            var popup_6876e50bdea944d083f87b38a3935291 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8fda35ec516b46f8b0f0a0ca2b36d2a1 = $(`<div id="html_8fda35ec516b46f8b0f0a0ca2b36d2a1" style="width: 100.0%; height: 100.0%;">Maison Milano Una Esperienze Price per night for two: 416 Amount of restaurants nearby: 5</div>`)[0];
+                popup_6876e50bdea944d083f87b38a3935291.setContent(html_8fda35ec516b46f8b0f0a0ca2b36d2a1);
+            
+
+            marker_6cbdafa33cbb48fc876eb83bcf4007f3.bindPopup(popup_6876e50bdea944d083f87b38a3935291)
+            ;
+
+            
+        
+    
+        var marker_27bf6fb8b99644a2ba3dab562cd23aea = L.marker(
+            [45.4647935218, 9.1965450346],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_7d66a2d5856f436c968c08dfec6426ca = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_27bf6fb8b99644a2ba3dab562cd23aea.setIcon(icon_7d66a2d5856f436c968c08dfec6426ca);
+            
+    
+            var popup_03a6bc2a2d28476ba048c6823c0ff1ac = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_bc5e455bd4d54325bfe5c5c2c7727e30 = $(`<div id="html_bc5e455bd4d54325bfe5c5c2c7727e30" style="width: 100.0%; height: 100.0%;">Pizzeria Gino Sorbillo - Lievito Madre al Duomo Average price for two:40.0</div>`)[0];
+                popup_03a6bc2a2d28476ba048c6823c0ff1ac.setContent(html_bc5e455bd4d54325bfe5c5c2c7727e30);
+            
+
+            marker_27bf6fb8b99644a2ba3dab562cd23aea.bindPopup(popup_03a6bc2a2d28476ba048c6823c0ff1ac)
+            ;
+
+            
+        
+    
+        var marker_15baa070073c401e920e35c16c0e1635 = L.marker(
+            [45.4657075231, 9.1914293915],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_89562097496c48c8805d3d3d341fbfa1 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_15baa070073c401e920e35c16c0e1635.setIcon(icon_89562097496c48c8805d3d3d341fbfa1);
+            
+    
+            var popup_88a2a75adc654c2d9158b67814d8435e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c5e02fcde9444d45b0ecae3aa5d516f9 = $(`<div id="html_c5e02fcde9444d45b0ecae3aa5d516f9" style="width: 100.0%; height: 100.0%;">Luini Average price for two:10.0</div>`)[0];
+                popup_88a2a75adc654c2d9158b67814d8435e.setContent(html_c5e02fcde9444d45b0ecae3aa5d516f9);
+            
+
+            marker_15baa070073c401e920e35c16c0e1635.bindPopup(popup_88a2a75adc654c2d9158b67814d8435e)
+            ;
+
+            
+        
+    
+        var marker_05e58548202f40738395877e2425d7aa = L.marker(
+            [45.4657317427, 9.1911967099],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_a64357dd7f7f4299a8377ca23e839be0 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_05e58548202f40738395877e2425d7aa.setIcon(icon_a64357dd7f7f4299a8377ca23e839be0);
+            
+    
+            var popup_4c0cd02fe9b1421f9bf81b85fb33c1e7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_06eb361ef73442cca98c52f74a73f1e5 = $(`<div id="html_06eb361ef73442cca98c52f74a73f1e5" style="width: 100.0%; height: 100.0%;">Cioccolati Italiani Average price for two:6.0</div>`)[0];
+                popup_4c0cd02fe9b1421f9bf81b85fb33c1e7.setContent(html_06eb361ef73442cca98c52f74a73f1e5);
+            
+
+            marker_05e58548202f40738395877e2425d7aa.bindPopup(popup_4c0cd02fe9b1421f9bf81b85fb33c1e7)
+            ;
+
+            
+        
+    
+        var marker_90ac50ab453f44ff8ccafda7addebf24 = L.marker(
+            [45.4655567974, 9.1910116374],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_fafb5c077e724b0c88de3439d86096e4 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_90ac50ab453f44ff8ccafda7addebf24.setIcon(icon_fafb5c077e724b0c88de3439d86096e4);
+            
+    
+            var popup_bc7bd47e00e24a2b9312d4d6a5273359 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_bb9c5d6b1ab5412ab15ab9f55c7b5a80 = $(`<div id="html_bb9c5d6b1ab5412ab15ab9f55c7b5a80" style="width: 100.0%; height: 100.0%;">Spontini Average price for two:15.0</div>`)[0];
+                popup_bc7bd47e00e24a2b9312d4d6a5273359.setContent(html_bb9c5d6b1ab5412ab15ab9f55c7b5a80);
+            
+
+            marker_90ac50ab453f44ff8ccafda7addebf24.bindPopup(popup_bc7bd47e00e24a2b9312d4d6a5273359)
+            ;
+
+            
+        
+    
+        var marker_82ef8edcdbb640d6870c7094b970c1a2 = L.marker(
+            [45.4614122698, 9.1919343174],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_7273a10b3b9248c1933d1484bf592ef4 = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_82ef8edcdbb640d6870c7094b970c1a2.setIcon(icon_7273a10b3b9248c1933d1484bf592ef4);
+            
+    
+            var popup_d7ea854f112a43568d9fb408b8896fe0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6d8b9e7a9dc3493586e990842a39e184 = $(`<div id="html_6d8b9e7a9dc3493586e990842a39e184" style="width: 100.0%; height: 100.0%;">California Bakery Average price for two:30.0</div>`)[0];
+                popup_d7ea854f112a43568d9fb408b8896fe0.setContent(html_6d8b9e7a9dc3493586e990842a39e184);
+            
+
+            marker_82ef8edcdbb640d6870c7094b970c1a2.bindPopup(popup_d7ea854f112a43568d9fb408b8896fe0)
+            ;
+
+            
+        
+    
+        var marker_beb9d063bc044e59af3d4914a5f1c0ef = L.marker(
+            [45.4748728181, 9.1938748956],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_6639bfa40dc14a7787373320dca1218e = L.AwesomeMarkers.icon({
+                    icon: 'utensils',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_beb9d063bc044e59af3d4914a5f1c0ef.setIcon(icon_6639bfa40dc14a7787373320dca1218e);
+            
+    
+            var popup_18b0a919bba84edf8535032b45a6861d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2f613cf66200435a9c2d7024ad92bb38 = $(`<div id="html_2f613cf66200435a9c2d7024ad92bb38" style="width: 100.0%; height: 100.0%;">22 Milano Average price for two:50.0</div>`)[0];
+                popup_18b0a919bba84edf8535032b45a6861d.setContent(html_2f613cf66200435a9c2d7024ad92bb38);
+            
+
+            marker_beb9d063bc044e59af3d4914a5f1c0ef.bindPopup(popup_18b0a919bba84edf8535032b45a6861d)
+            ;
+
+            
+        
+    
+        var marker_a622c3b0096142178540844ad91886ed = L.marker(
+            [45.467, 9.19426],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_5f488259b9c24f7b9d67879b331121b8);
+        
+    
+
+                var icon_5e60eafa5bdf496991b294f63157177e = L.AwesomeMarkers.icon({
+                    icon: 'home',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a622c3b0096142178540844ad91886ed.setIcon(icon_5e60eafa5bdf496991b294f63157177e);
+            
+    
+            var popup_8b438df0b201452da8547633cd359c93 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_841abb80b4b645969645caef452712d6 = $(`<div id="html_841abb80b4b645969645caef452712d6" style="width: 100.0%; height: 100.0%;">Palazzo Matteotti, The Dedica Anthology, Autograph Collection Price per night for two: 302 Amount of restaurants nearby: 6</div>`)[0];
+                popup_8b438df0b201452da8547633cd359c93.setContent(html_841abb80b4b645969645caef452712d6);
+            
+
+            marker_a622c3b0096142178540844ad91886ed.bindPopup(popup_8b438df0b201452da8547633cd359c93)
+            ;
+
+            
+        
+</script>
