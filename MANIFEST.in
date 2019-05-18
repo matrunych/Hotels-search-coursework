@@ -1,0 +1,3 @@
+recursive-include find_hotels/templates *
+recursive-include find_hotels/static *
+recursive-include find_hotels/static/images *
