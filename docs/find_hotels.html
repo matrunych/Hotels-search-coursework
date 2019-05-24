@@ -1,0 +1,256 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>find_hotels package &#8212; find_hotels 1.0.0 documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="find-hotels-package">
+<h1>find_hotels package<a class="headerlink" href="#find-hotels-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-find_hotels.MAP_new">
+<span id="find-hotels-map-new-module"></span><h2>find_hotels.MAP_new module<a class="headerlink" href="#module-find_hotels.MAP_new" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="find_hotels.MAP_new.create_map">
+<code class="descclassname">find_hotels.MAP_new.</code><code class="descname">create_map</code><span class="sig-paren">(</span><em>dct</em>, <em>name</em>, <em>price</em><span class="sig-paren">)</span><a class="headerlink" href="#find_hotels.MAP_new.create_map" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function creates map with markers
+as html-file using dct of hotels and find hotel with zomato API
+Return dict with info about hotels’names, prices, restaurants nearby
+:param dct: dict
+:param name: str
+:param price: int
+:return: dict</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="find_hotels.MAP_new.main_creator">
+<code class="descclassname">find_hotels.MAP_new.</code><code class="descname">main_creator</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#find_hotels.MAP_new.main_creator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Main function of program that call previous function</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-find_hotels.PARSE_hotelscan">
+<span id="find-hotels-parse-hotelscan-module"></span><h2>find_hotels.PARSE_hotelscan module<a class="headerlink" href="#module-find_hotels.PARSE_hotelscan" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="find_hotels.PARSE_hotelscan.parsing">
+<code class="descclassname">find_hotels.PARSE_hotelscan.</code><code class="descname">parsing</code><span class="sig-paren">(</span><em>name</em><span class="sig-paren">)</span><a class="headerlink" href="#find_hotels.PARSE_hotelscan.parsing" title="Permalink to this definition">¶</a></dt>
+<dd><p>Parse site with hotels of defined city
+Return dict with hotels’ names, coordinates and price per night for two
+:param name: str
+:return: dict</p>
+</dd></dl>
+
+</div>
+<div class="section" id="find-hotels-adt-dict-module">
+<h2>find_hotels.adt_dict module<a class="headerlink" href="#find-hotels-adt-dict-module" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-find_hotels.api">
+<span id="find-hotels-api-module"></span><h2>find_hotels.api module<a class="headerlink" href="#module-find_hotels.api" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="find_hotels.api.Api">
+<em class="property">class </em><code class="descclassname">find_hotels.api.</code><code class="descname">Api</code><span class="sig-paren">(</span><em>lat='0'</em>, <em>lon='0'</em>, <em>start='0'</em>, <em>radius='1000'</em>, <em>content_type='application/json'</em><span class="sig-paren">)</span><a class="headerlink" href="#find_hotels.api.Api" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="find_hotels.api.Api.get">
+<code class="descname">get</code><span class="sig-paren">(</span><em>endpoint</em>, <em>params</em><span class="sig-paren">)</span><a class="headerlink" href="#find_hotels.api.Api.get" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get json from zomato with defined params</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-find_hotels.flask_hotel_search">
+<span id="find-hotels-flask-hotel-search-module"></span><h2>find_hotels.flask_hotel_search module<a class="headerlink" href="#module-find_hotels.flask_hotel_search" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="find_hotels.flask_hotel_search.index">
+<code class="descclassname">find_hotels.flask_hotel_search.</code><code class="descname">index</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#find_hotels.flask_hotel_search.index" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="find_hotels.flask_hotel_search.info">
+<code class="descclassname">find_hotels.flask_hotel_search.</code><code class="descname">info</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#find_hotels.flask_hotel_search.info" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-find_hotels.hidden">
+<span id="find-hotels-hidden-module"></span><h2>find_hotels.hidden module<a class="headerlink" href="#module-find_hotels.hidden" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-find_hotels.is_valid">
+<span id="find-hotels-is-valid-module"></span><h2>find_hotels.is_valid module<a class="headerlink" href="#module-find_hotels.is_valid" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="find_hotels.is_valid.is_valid_input">
+<code class="descclassname">find_hotels.is_valid.</code><code class="descname">is_valid_input</code><span class="sig-paren">(</span><em>city</em><span class="sig-paren">)</span><a class="headerlink" href="#find_hotels.is_valid.is_valid_input" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check if city with defined name exists
+:param city: str
+:return: bool or tuple</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="find_hotels.is_valid.zomato_valid">
+<code class="descclassname">find_hotels.is_valid.</code><code class="descname">zomato_valid</code><span class="sig-paren">(</span><em>city</em><span class="sig-paren">)</span><a class="headerlink" href="#find_hotels.is_valid.zomato_valid" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks if zomato has info about defined city
+:param city: str
+:return: str or bool</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-find_hotels.we">
+<span id="find-hotels-we-module"></span><h2>find_hotels.we module<a class="headerlink" href="#module-find_hotels.we" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-find_hotels.zomatopy_1">
+<span id="find-hotels-zomatopy-1-module"></span><h2>find_hotels.zomatopy_1 module<a class="headerlink" href="#module-find_hotels.zomatopy_1" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="find_hotels.zomatopy_1.DotDict">
+<em class="property">class </em><code class="descclassname">find_hotels.zomatopy_1.</code><code class="descname">DotDict</code><a class="headerlink" href="#find_hotels.zomatopy_1.DotDict" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">dict</span></code></p>
+<p>Dot notation access to dictionary attributes</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="find_hotels.zomatopy_1.Zomato">
+<em class="property">class </em><code class="descclassname">find_hotels.zomatopy_1.</code><code class="descname">Zomato</code><span class="sig-paren">(</span><em>config</em><span class="sig-paren">)</span><a class="headerlink" href="#find_hotels.zomatopy_1.Zomato" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Class for representing Zomato</p>
+<dl class="method">
+<dt id="find_hotels.zomatopy_1.Zomato.get_nearby_restaurants">
+<code class="descname">get_nearby_restaurants</code><span class="sig-paren">(</span><em>latitude</em>, <em>longitude</em><span class="sig-paren">)</span><a class="headerlink" href="#find_hotels.zomatopy_1.Zomato.get_nearby_restaurants" title="Permalink to this definition">¶</a></dt>
+<dd><p>Takes the latitude and longitude as inputs.
+Returns a dictionary of Restaurant IDs and their corresponding Zomato URLs.
+:param latitude: str
+:param longitude: str</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="find_hotels.zomatopy_1.Zomato.is_key_invalid">
+<code class="descname">is_key_invalid</code><span class="sig-paren">(</span><em>a</em><span class="sig-paren">)</span><a class="headerlink" href="#find_hotels.zomatopy_1.Zomato.is_key_invalid" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks if the API key provided is valid or invalid.
+If invalid, throws a InvalidKey Exception.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="find_hotels.zomatopy_1.Zomato.is_rate_exceeded">
+<code class="descname">is_rate_exceeded</code><span class="sig-paren">(</span><em>a</em><span class="sig-paren">)</span><a class="headerlink" href="#find_hotels.zomatopy_1.Zomato.is_rate_exceeded" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks if the request limit for the API key is exceeded or not.
+If exceeded, throws a ApiLimitExceeded Exception.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="find_hotels.zomatopy_1.Zomato.is_valid_city_id">
+<code class="descname">is_valid_city_id</code><span class="sig-paren">(</span><em>city_ID</em><span class="sig-paren">)</span><a class="headerlink" href="#find_hotels.zomatopy_1.Zomato.is_valid_city_id" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks if the City ID is valid or invalid.
+If invalid, throws a InvalidCityId Exception.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="find_hotels.zomatopy_1.Zomato.is_valid_restaurant_id">
+<code class="descname">is_valid_restaurant_id</code><span class="sig-paren">(</span><em>restaurant_ID</em><span class="sig-paren">)</span><a class="headerlink" href="#find_hotels.zomatopy_1.Zomato.is_valid_restaurant_id" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks if the Restaurant ID is valid or invalid.
+If invalid, throws a InvalidRestaurantId Exception.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="find_hotels.zomatopy_1.initialize_app">
+<code class="descclassname">find_hotels.zomatopy_1.</code><code class="descname">initialize_app</code><span class="sig-paren">(</span><em>config</em><span class="sig-paren">)</span><a class="headerlink" href="#find_hotels.zomatopy_1.initialize_app" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initialize app Zomato API with user-key
+:param config: dict</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-find_hotels">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-find_hotels" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">find_hotels</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Olena Matrunych.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/rst/find_hotels.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
