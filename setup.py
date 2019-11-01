@@ -30,7 +30,7 @@ setup(
     'soupsieve==1.8',
     'urllib3==1.24.1',
     'webdriver-manager==1.7',
-    'Werkzeug==0.15.2',
+    'Werkzeug==0.15.3',
     'zomatopy==1.0.10'],
     url='',
     license='',
