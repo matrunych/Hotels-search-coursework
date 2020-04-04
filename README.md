@@ -1,4 +1,4 @@
-Course-work for first year in course "Programming fundamentals".
+#Course-work for first year in course "Programming fundamentals".
 
 # Призначення та коротка характеристика програми
 Програма призначена для того, щоб допомогти користувачу з пошуком бюджетного житла для мінімізації витрат на харчування.
