@@ -28,7 +28,7 @@ setup(
     'selenium==3.141.0',
     'six==1.12.0',
     'soupsieve==1.8',
-    'urllib3==1.24.1',
+    'urllib3==1.26.5',
     'webdriver-manager==1.7',
     'Werkzeug==0.15.2',
     'zomatopy==1.0.10'],
