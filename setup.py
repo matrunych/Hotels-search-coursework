@@ -23,7 +23,7 @@ setup(
     'itsdangerous==1.1.0',
     'Jinja2==2.10',
     'MarkupSafe==1.1.1',
-    'numpy==1.16.2',
+    'numpy==1.22.0',
     'requests==2.21.0',
     'selenium==3.141.0',
     'six==1.12.0',
